@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>test</title>
+    <url>/2020/01/17/test/</url>
+    <content><![CDATA[<h1 id="Python实例一一更换桌面壁纸"><a href="#Python实例一一更换桌面壁纸" class="headerlink" title="Python实例一一更换桌面壁纸"></a>Python实例一一更换桌面壁纸</h1><p>最近学习了一些Python基础知识，想着利用Python做一些小的脚本，然后看到一篇博客，介绍了如何抓取Bing主页上的图片来作为电脑的壁纸，于是就照例实现一下，在实现的过程中遇到一些小问题，记录一下：<a id="more"></a></p>
+<p>主要源于以下两篇文章做参考：</p>
+<p><a href="http://www.php.cn/python-tutorials-370699.html" target="_blank" rel="noopener">http://www.php.cn/python-tutorials-370699.html</a></p>
+<p><a href="https://blog.csdn.net/ZM_Yang/article/details/77801679" target="_blank" rel="noopener">https://blog.csdn.net/ZM_Yang/article/details/77801679</a></p>
+<p>代码测试：</p>
+<p>`  <a href="https://github.com/netcan/hexo-generator-index-pin-top" target="_blank" rel="noopener">hexo-generator-index-pin-top</a></p>
+<pre><code>1
+
+npm uninstall hexo-generator-index --save
+
+2
+
+npm install hexo-generator-index-pin-top --save</code></pre><p>主要的实现Python代码：</p>
+<pre><code>    #!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+from PIL import Image
+import win32gui
+import win32con
+import win32api
+import re
+import sys
+import os
+
+# Author  : ZMYCHOU
+# Version :V1.0
+# Since   :2017/09/02
+# Modified:2017/09/02
+# To run this program, you need follow module:
+# Python 3.6
+# win32 module,website :https://sourceforge.net/projects/pywin32/
+# Image module,website :https://pypi.python.org/pypi/Pillow
+# BeautifulSoup,website:https://www.crummy.com/software/BeautifulSoup/  
+# Navigate to the directory where this source file is located from DOS command and then enter
+# follow command:
+# python LiveWallPaper.py 
+
+def setWallpaper(imagepath):
+    k = win32api.RegOpenKeyEx(win32con.HKEY_CURRENT_USER,&quot;Control Panel\\Desktop&quot;,0,win32con.KEY_SET_VALUE)
+    win32api.RegSetValueEx(k, &quot;WallpaperStyle&quot;, 0, win32con.REG_SZ, &quot;2&quot;) 
+    win32api.RegSetValueEx(k, &quot;TileWallpaper&quot;, 0, win32con.REG_SZ, &quot;0&quot;)
+    win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,imagepath, 1+2)
+
+def setWallPaperBMP(imagePath):
+    bmpImage = Image.open(imagePath)
+    newPath = imagePath.replace(&apos;.jpg&apos;, &apos;.bmp&apos;)
+    bmpImage.save(newPath, &quot;BMP&quot;)
+    setWallpaper(newPath)
+
+# Get image from Bing
+bing = urlopen(&quot;http://cn.bing.com/&quot;).read()
+str = bing.decode(&quot;gbk&quot;,&apos;ignore&apos;)
+imgUrl = re.search(r&apos;az/hprichbg/rb(.){1,100}.jpg?&apos;, str)
+if imgUrl:
+    print(imgUrl.group())
+imgFile = open(os.getcwd() + r&quot;\img.bmp&quot;, &quot;wb+&quot;)
+img = urlopen(&quot;http://cn.bing.com/&quot; + imgUrl.group()).read()
+imgFile.write(img)
+imgFile.flush()
+imgFile.close()
+setWallPaperBMP(os.getcwd() + r&quot;\img.bmp&quot;)</code></pre><p>运行前，我们需要安装beautifulsoup4和PIL支持库</p>
+<p>另外在运行过程中，会出现各种模块缺失无法运行，这个时候对应运行的批处理如下所示：</p>
+<pre><code>Microsoft Windows [版本 10.0.14393]
+(c) 2016 Microsoft Corporation。保留所有权利。
+
+C:\Users\admin&gt;pip3
+
+Usage:
+  pip3 &lt;command&gt; [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log &lt;path&gt;                Path to a verbose appending log.
+  --proxy &lt;proxy&gt;             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries &lt;retries&gt;         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout &lt;sec&gt;             Set the socket timeout (default 15 seconds).
+  --exists-action &lt;action&gt;    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort).
+  --trusted-host &lt;hostname&gt;   Mark this host as trusted, even though it does not have valid or any HTTPS.
+  --cert &lt;path&gt;               Path to alternate CA bundle.
+  --client-cert &lt;path&gt;        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir &lt;dir&gt;           Store the cache data in &lt;dir&gt;.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don&apos;t periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+
+C:\Users\admin&gt;python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/5f/25/e52d3f31441505a5f3af41213346e5b6c221c9e086a166f3703d2ddaf940/pip-18.0-py2.py3-none-any.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 5.1MB/s
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-18.0
+
+C:\Users\admin&gt;pip3 -V
+pip 18.0 from d:\python\python3.7.0\lib\site-packages\pip (python 3.7)
+
+C:\Users\admin&gt;pip3 install beautifulsoup4
+Collecting beautifulsoup4
+  Downloading https://files.pythonhosted.org/packages/21/0a/47fdf541c97fd9b6a610cb5fd518175308a7cc60569962e776ac52420387/beautifulsoup4-4.6.3-py3-none-any.whl (90kB)
+    100% |████████████████████████████████| 92kB 232kB/s
+Installing collected packages: beautifulsoup4
+Successfully installed beautifulsoup4-4.6.3
+
+C:\Users\admin&gt;pip install pillow
+Collecting pillow
+  Downloading https://files.pythonhosted.org/packages/39/a5/4258f77ab40d71bf7d724002a0bb166a902cb4cbdff7b866b1c3d9014547/Pillow-5.2.0-cp37-cp37m-win_amd64.whl (1.6MB)
+    100% |████████████████████████████████| 1.6MB 766kB/s
+Installing collected packages: pillow
+Successfully installed pillow-5.2.0
+
+C:\Users\admin&gt;pip install pypiwin32
+Collecting pypiwin32
+  Downloading https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl
+Collecting pywin32&gt;=223 (from pypiwin32)
+  Downloading https://files.pythonhosted.org/packages/f4/fb/ba9e519d90b63090005bcdee900d318d895d475c627dc1bc0f77b27abad0/pywin32-223-cp37-cp37m-win_amd64.whl (8.9MB)
+    100% |████████████████████████████████| 8.9MB 1.2MB/s
+Installing collected packages: pywin32, pypiwin32
+Successfully installed pypiwin32-223 pywin32-223</code></pre><p>接下来，我们运行Python脚本就可以抓取Bing主页图片作为我们的桌面壁纸了。</p>
+<p><img src="https://img-blog.csdn.net/20180922152627175?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW55aW4yMzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
+<h1 id="项目实例扩展"><a href="#项目实例扩展" class="headerlink" title="项目实例扩展"></a>项目实例扩展</h1><p>由于公司电脑默认在开机启动时会篡改我们预先设置好的桌面背景，这时候就希望写一个更换壁纸的python脚本，在每次开机时自动运行，实现如下：</p>
+<p>1.先写一个设置桌面背景的python脚本，代码如下：</p>
+<pre><code>#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
+
+import win32api
+import win32con
+import win32gui
+import os
+import time
+
+def setWallpaper(image_path):
+    key = win32api.RegOpenKeyEx(win32con.HKEY_CURRENT_USER,&quot;Control Panel\\Desktop&quot;,0,win32con.KEY_SET_VALUE)
+    win32api.RegSetValueEx(key, &quot;WallpaperStyle&quot;, 0, win32con.REG_SZ, &quot;2&quot;)
+    win32api.RegSetValueEx(key, &quot;TileWallpaper&quot;, 0, win32con.REG_SZ, &quot;0&quot;)
+    win32gui.SystemParametersInfo(win32con.SPI_SETDESKWALLPAPER,image_path, 1+2)
+
+filepath = os.path.split(os.path.realpath(__file__))[0] + &apos;\photo&apos;
+print(filepath)
+image_list = os.listdir(filepath)
+
+while True:
+    for image_name in image_list:
+        image_path = filepath + &apos;\\&apos; + image_name
+        setWallpaper(image_path)
+        time.sleep(10)</code></pre><p>2.写一个批处理执行这个python脚本</p>
+<pre><code>@echo off 
+D: 
+cd D:\Python\src\github_practice\SetDesktopPaper
+start pythonw SetDesktopPaper.py 
+exit</code></pre><p>3.利用.vbs文件去执行上述批处理（这么操作主要是为了隐藏批处理运行窗口）</p>
+<pre><code>Set ws = CreateObject(&quot;Wscript.Shell&quot;)
+ws.run &quot;cmd /c D:\Python\src\github_practice\SetDesktopPaper\Startup.bat&quot;,vbhide</code></pre><p>然后，我们把Startup.vbs文件设置桌面快捷方式，然后将这个快捷方式放入电脑自启动文件夹下。</p>
+<p><img src="https://img-blog.csdn.net/20181018163415527?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3h1YW55aW4yMzU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt=""></p>
+<p>这样，在我们每次开机后都会自动运行这个Startup.vbs文件，就实现了自动运行python脚本的功能。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>403博客</title>
+    <url>/2020/01/12/403%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="403名单"><a href="#403名单" class="headerlink" title="403名单"></a>403名单</h1><h5 id="biaji-屌啊"><a href="#biaji-屌啊" class="headerlink" title="biaji 屌啊"></a>biaji 屌啊</h5><h5 id="旺仔-屌啊"><a href="#旺仔-屌啊" class="headerlink" title="旺仔 屌啊"></a>旺仔 屌啊</h5><h5 id="懒得写了"><a href="#懒得写了" class="headerlink" title="懒得写了"></a>懒得写了</h5>]]></content>
+  </entry>
+  <entry>
+    <title>BIAJI</title>
+    <url>/2020/01/12/BIAJI/</url>
+    <content><![CDATA[<h1 id="BIAJI-牛逼就完了"><a href="#BIAJI-牛逼就完了" class="headerlink" title="BIAJI 牛逼就完了"></a>BIAJI 牛逼就完了</h1><p><img src="https://i.loli.net/2020/01/12/fFxuwrCzDjXeE8S.png" alt="biaji.jpg"></p>
+]]></content>
+  </entry>
+</search>
