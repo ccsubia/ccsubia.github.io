@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>通过开源项目免费申请JetBrains产品激活码</title>
+    <url>/2020/01/22/jetbrains/</url>
+    <content><![CDATA[<p>转载自：<a href="http://www.hellohao.cn/?p=1111316" target="_blank" rel="noopener">Hellohao博客</a></p>
+<p><img src="http://cdn.wwery.com/Hellohao/287d81128020741.png" alt="ideabanner.png"></p>
+<p>说到JetBrains，我们使用最多的就是IDEA和webstorm了吧，今天博主就给分享一下如何通过自己的开源项目免费申请正版激活码。<a id="more"></a></p>
+<h4 id="申请前操作"><a href="#申请前操作" class="headerlink" title="申请前操作"></a>申请前操作</h4><ul>
+<li>首先需要有自己的开源项目</li>
+<li>将自己的Github的邮箱设置为公开（如下图）</li>
+</ul>
+<p><img src="http://cdn.wwery.com/Hellohao/90bf71128021006.png" alt="emailsettimg.png"></p>
+<h4 id="申请激活码"><a href="#申请激活码" class="headerlink" title="申请激活码"></a>申请激活码</h4><p><strong>申请地址:</strong><a href="https://www.jetbrains.com/shop/eform/opensource" target="_blank" rel="noopener" title="https://www.jetbrains.com/shop/eform/opensource">https://www.jetbrains.com/shop/eform/opensource</a><br>打开以上申请地址，然后按要求填写即可：<br>这里需要注意的是：申请的邮箱必须和你Github的主邮箱要保持一致。否则不能通过。<br><img src="http://cdn.wwery.com/Hellohao/1fdec1128021312.png" alt="sqjt.png"></p>
+<p>申请完成之后会有如下提示：<br><img src="http://cdn.wwery.com/Hellohao/ade131128021504.png" alt="申请成功.png"></p>
+<p>然后，就需要我们等一两天，等待官方审核通过后就会给我们回复邮件告诉我们如何领取激活码。<br><img src="http://cdn.wwery.com/Hellohao/1a6cb1128022020.png" alt="邮件内容.png"></p>
+<p>激活码有效期是一年的，但是可以无限申请，意思就是只要你开源项目保持更新提交，那么快到期的时候再次申请即可。</p>
+]]></content>
+      <tags>
+        <tag>转载</tag>
+        <tag>JetBrains</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>哔哩哔哩(bilibili)视频下载-支持4K</title>
-    <url>/2020/01/20/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-bilibili-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD/</url>
+    <url>/2020/01/20/bilibili/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯</p>
 <h3 id="准备阶段–安装著名的下载器IDM"><a href="#准备阶段–安装著名的下载器IDM" class="headerlink" title="准备阶段–安装著名的下载器IDM"></a>准备阶段–安装著名的下载器IDM</h3><p>  下载链接: <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">官方链接</a>  <a href="https://hu.zenith.workers.dev/IDM%206.36.2/" target="_blank" rel="noopener">个人云盘链接</a></p>
 <p>  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）<a id="more"></a></p>
