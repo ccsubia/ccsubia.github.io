@@ -55,5 +55,9 @@ echo 合并结束！
 echo 文件已经输出到本地原视频所在文件夹。
 pause</code></pre><p>3.另存为<code>.bat</code>文件（注意编码方式选择ANSI，否则会出现中文乱码）<br>4.双击<code>.bat</code>文件，拖入音频和视频文件，回车<br>5.结束</p>
 ]]></content>
+      <tags>
+        <tag>bilibili</tag>
+        <tag>4K</tag>
+      </tags>
   </entry>
 </search>
