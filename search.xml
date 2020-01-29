@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ICARUS主题更换问题</title>
+    <url>/2020/01/29/ICARUS%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<ol>
+<li><p>重新执行<code>hexo serve</code>命令，发现报错如下</p>
+<figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">ERROR </span>Package cheerio is not installed.  </span><br><span class="line"><span class="keyword">ERROR </span>Please install the missing dependencies from the root directory of your Hexo site.</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>原因缺少<code>cheerio</code>依赖，进入<code>blog-hexo</code>目录，执行<code>npm i cheerio -S</code>命令进行安装即可，<code>-S</code>指安装并将其保存到当前项目的配置中，下次就会统一安装了。</p>
+</li>
+<li><p>重新执行<code>hexo serve</code>命令，发现如下信息</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="builtin-name">INFO</span>  Checking dependencies  </span><br><span class="line"><span class="builtin-name">INFO</span>  Validating the configuration file  </span><br><span class="line">WARN  themes/icarus/\_config.yml is <span class="keyword">not</span> found. We are creating one <span class="keyword">for</span> you<span class="built_in">..</span>.  </span><br><span class="line"><span class="builtin-name">INFO</span>  themes/icarus/\_config.yml is created. Please restart Hexo <span class="keyword">to</span> apply changes.</span><br></pre></td></tr></table></figure>
+<p>只是提示缺少<code>themes/icarus/_config.yml</code>文件，已经帮助我们生成，再次运行即可正常启动。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>纠错</category>
+      </categories>
+      <tags>
+        <tag>主题</tag>
+        <tag>ICARUS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git代理设置</title>
+    <url>/2020/01/29/gitproxy/</url>
+    <content><![CDATA[<h3 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1. 前期准备"></a>1. 前期准备</h3><ul>
+<li>代理服务器</li>
+<li>代理软件<a id="more"></a>
+
+</li>
+</ul>
+<h3 id="2-代理服务器"><a href="#2-代理服务器" class="headerlink" title="2. 代理服务器"></a>2. 代理服务器</h3><ul>
+<li>打开代理软件，连接上代理服务器</li>
+<li>确定代理软件的占用端口，一般默认<code>1080端口</code> （可暂时跳过<ol>
+<li>打开设备管理器，找到代理软件的详细信息确认PID<br><img src="https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png" alt="pid"></li>
+<li><code>CMD</code>打开命令行，查看端口占用信息,使用<code>netstat -ano</code>命令即可查看全部端口占用信息</li>
+<li><code>Ctrl</code>+<code>F</code>查找之前找到的PID，确认占用端口<br><img src="https://i.loli.net/2020/01/29/uzPsYNweKmcBOQJ.png" alt="port"></li>
+</ol>
+</li>
+</ul>
+<h3 id="3-设置git代理"><a href="#3-设置git代理" class="headerlink" title="3. 设置git代理"></a>3. 设置git代理</h3><ul>
+<li><p>打开<code>Git Bash</code></p>
+</li>
+<li><p>设置代理</p>
+<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line"><span class="comment">#全局设置</span></span><br><span class="line">git config <span class="params">--global</span> http.proxy socks5:<span class="string">//localhost</span><span class="function">:1080</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本次设置</span></span><br><span class="line">git clone https:<span class="string">//github.com/example/example.git</span> <span class="params">--config</span> <span class="string">"http.proxy=127.0.0.1:1080"</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>原创</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>代理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>通过开源项目免费申请JetBrains产品激活码</title>
     <url>/2020/01/22/jetbrains/</url>
     <content><![CDATA[<p>转载自：<a href="http://www.hellohao.cn/?p=1111316" target="_blank" rel="noopener">Hellohao博客</a></p>
