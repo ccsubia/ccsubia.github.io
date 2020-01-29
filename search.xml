@@ -16,9 +16,12 @@
 <p>然后，就需要我们等一两天，等待官方审核通过后就会给我们回复邮件告诉我们如何领取激活码。<br><img src="http://cdn.wwery.com/Hellohao/1a6cb1128022020.png" alt="邮件内容.png"></p>
 <p>激活码有效期是一年的，但是可以无限申请，意思就是只要你开源项目保持更新提交，那么快到期的时候再次申请即可。</p>
 ]]></content>
+      <categories>
+        <category>转载</category>
+      </categories>
       <tags>
-        <tag>转载</tag>
         <tag>JetBrains</tag>
+        <tag>开发工具</tag>
       </tags>
   </entry>
   <entry>
@@ -55,6 +58,9 @@ echo 合并结束！
 echo 文件已经输出到本地原视频所在文件夹。
 pause</code></pre><p>3.另存为<code>.bat</code>文件（注意编码方式选择ANSI，否则会出现中文乱码）<br>4.双击<code>.bat</code>文件，拖入音频和视频文件，回车<br>5.结束</p>
 ]]></content>
+      <categories>
+        <category>原创</category>
+      </categories>
       <tags>
         <tag>bilibili</tag>
         <tag>4K</tag>
