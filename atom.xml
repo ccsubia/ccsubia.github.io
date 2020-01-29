@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-29T13:41:15.485Z</updated>
+  <updated>2020-01-29T14:42:14.692Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,16 +18,16 @@
   
   <entry>
     <title>ICARUS主题更换问题</title>
-    <link href="http://yoursite.com/2020/01/29/ICARUS%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2020/01/29/ICARUS%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E9%97%AE%E9%A2%98/</id>
+    <link href="http://yoursite.com/2020/01/29/icaruserror/"/>
+    <id>http://yoursite.com/2020/01/29/icaruserror/</id>
     <published>2020-01-29T13:29:00.000Z</published>
-    <updated>2020-01-29T13:41:15.485Z</updated>
+    <updated>2020-01-29T14:42:14.692Z</updated>
     
     <summary type="html">
     
-      &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;重新执行&lt;code&gt;hexo serve&lt;/code&gt;命令，发现报错如下&lt;/p&gt;
-&lt;figure class=&quot;highlight subunit&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Package cheerio is not installed.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Please install the missing dependencies from the root directory of your Hexo site.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/icaruserror/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/icaruserror/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;发现错误&quot;&gt;&lt;a href=&quot;#发现错误&quot; class=&quot;headerlink&quot; title=&quot;发现错误&quot;&gt;&lt;/a&gt;发现错误&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;下载更换ICARUS主题后，重新执行&lt;code&gt;hexo serve&lt;/code&gt;命令，发现报错如下&lt;figure class=&quot;highlight subunit&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Package cheerio is not installed.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Please install the missing dependencies from the root directory of your Hexo site.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -46,11 +46,12 @@
     <link href="http://yoursite.com/2020/01/29/gitproxy/"/>
     <id>http://yoursite.com/2020/01/29/gitproxy/</id>
     <published>2020-01-29T12:05:00.000Z</published>
-    <updated>2020-01-29T14:12:24.334Z</updated>
+    <updated>2020-01-29T14:41:32.658Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-前期准备&quot;&gt;&lt;a href=&quot;#1-前期准备&quot; class=&quot;headerlink&quot; title=&quot;1. 前期准备&quot;&gt;&lt;/a&gt;1. 前期准备&lt;/h3&gt;&lt;ul&gt;
+      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/gitproxy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/gitproxy/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-前期准备&quot;&gt;&lt;a href=&quot;#1-前期准备&quot; class=&quot;headerlink&quot; title=&quot;1. 前期准备&quot;&gt;&lt;/a&gt;1. 前期准备&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;代理服务器&lt;/li&gt;
 &lt;li&gt;代理软件
     
@@ -71,11 +72,12 @@
     <link href="http://yoursite.com/2020/01/22/jetbrains/"/>
     <id>http://yoursite.com/2020/01/22/jetbrains/</id>
     <published>2020-01-22T12:26:00.000Z</published>
-    <updated>2020-01-29T07:14:03.605Z</updated>
+    <updated>2020-01-29T14:42:41.623Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;转载自：&lt;a href=&quot;http://www.hellohao.cn/?p=1111316&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hellohao博客&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/jetbrains/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/jetbrains/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;转载自：&lt;a href=&quot;http://www.hellohao.cn/?p=1111316&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hellohao博客&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://cdn.wwery.com/Hellohao/287d81128020741.png&quot; alt=&quot;ideabanner.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;说到JetBrains，我们使用最多的就是IDEA和webstorm了吧，今天博主就给分享一下如何通过自己的开源项目免费申请正版激活码。
     
@@ -96,11 +98,12 @@
     <link href="http://yoursite.com/2020/01/20/bilibili/"/>
     <id>http://yoursite.com/2020/01/20/bilibili/</id>
     <published>2020-01-20T05:41:00.000Z</published>
-    <updated>2020-01-29T12:32:05.436Z</updated>
+    <updated>2020-01-29T14:43:02.890Z</updated>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯&lt;/p&gt;
+      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/bilibili/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/bilibili/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯&lt;/p&gt;
 &lt;h3 id=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;a href=&quot;#准备阶段–安装著名的下载器IDM&quot; class=&quot;headerlink&quot; title=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;/a&gt;准备阶段–安装著名的下载器IDM&lt;/h3&gt;&lt;p&gt;  下载链接: &lt;a href=&quot;https://www.internetdownloadmanager.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方链接&lt;/a&gt;  &lt;a href=&quot;https://hu.zenith.workers.dev/IDM%206.36.2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;个人云盘链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）
     

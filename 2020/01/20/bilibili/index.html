@@ -64,7 +64,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">901字</span>
+            <span class="post-count">907字</span>
         </span>
     </span>
 
@@ -99,7 +99,8 @@
       
 
       
-      <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯</p>
+      <p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/29/bilibili/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/29/bilibili/</a></p>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯</p>
 <h3 id="准备阶段–安装著名的下载器IDM"><a href="#准备阶段–安装著名的下载器IDM" class="headerlink" title="准备阶段–安装著名的下载器IDM"></a>准备阶段–安装著名的下载器IDM</h3><p>  下载链接: <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">官方链接</a>  <a href="https://hu.zenith.workers.dev/IDM%206.36.2/" target="_blank" rel="noopener">个人云盘链接</a></p>
 <p>  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）<a id="more"></a></p>
 <h3 id="正式阶段–前往小破站下载"><a href="#正式阶段–前往小破站下载" class="headerlink" title="正式阶段–前往小破站下载"></a>正式阶段–前往小破站下载</h3><p>浏览器正常浏览小破站，找到需要下载视频页面，在视频页面右上角会出现IDM的下载浮窗，如下图所示（如果看不到这个悬浮窗请<code>刷新页面</code>或<code>重启浏览器</code>或<code>更换浏览器</code>,建议使用<code>Chrome</code>，还是没有可能是你的插件没有安装好，或者是由于之前有过一些我不知道的操作，请自行解决没有请刷新页面或自己发动聪明的大脑解决）</p>
@@ -118,7 +119,7 @@
 <p>  最后再进行一次音视频合并，音视频合并的文件可在网盘下载<br>  视频合并需要ffmpeg的支持，可前往官网下载全局安装<br>  <a href="https://www.ffmpeg.org/download.html/" target="_blank" rel="noopener">https://www.ffmpeg.org/download.html/</a></p>
 <p>  似乎也可以只下载我网盘里的<code>.exe</code>文件，与<code>.bat</code>文件在同一文件夹目录下就可以</p>
 <h4 id="自主创建-bat文件："><a href="#自主创建-bat文件：" class="headerlink" title="自主创建.bat文件："></a>自主创建<code>.bat</code>文件：</h4><p>  1.本地创建一个txt文件<br>  2.输入如下代码</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">title 音视频合并</span><br><span class="line">echo 个人博客网站：[url]https:&#x2F;&#x2F;ccsubia.github.io&#x2F;[&#x2F;url]</span><br><span class="line">echo.</span><br><span class="line">set &#x2F;p audio&#x3D;请将【音频】文件拖拽到此处，按下回车确认：</span><br><span class="line">set &#x2F;p video&#x3D;请将【视频】文件拖拽到此处，按下回车确认：</span><br><span class="line">ffmpeg.exe -i %audio% -i %video% -acodec copy -vcodec copy %video%.mp4</span><br><span class="line">echo.</span><br><span class="line">echo 合并结束！</span><br><span class="line">echo 文件已经输出到本地原视频所在文件夹。</span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">title</span> 音视频合并</span><br><span class="line"><span class="built_in">echo</span> 个人博客网站：[url]https://ccsubia.github.io/[/url]</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">set</span> /p audio=请将【音频】文件拖拽到此处，按下回车确认：</span><br><span class="line"><span class="built_in">set</span> /p video=请将【视频】文件拖拽到此处，按下回车确认：</span><br><span class="line">ffmpeg.exe -i <span class="variable">%audio%</span> -i <span class="variable">%video%</span> -acodec <span class="built_in">copy</span> -vcodec <span class="built_in">copy</span> <span class="variable">%video%</span>.mp4</span><br><span class="line"><span class="built_in">echo</span>.</span><br><span class="line"><span class="built_in">echo</span> 合并结束！</span><br><span class="line"><span class="built_in">echo</span> 文件已经输出到本地原视频所在文件夹。</span><br><span class="line"><span class="built_in">pause</span></span><br></pre></td></tr></table></figure>
 
 <p>3.另存为<code>.bat</code>文件（注意编码方式选择ANSI，否则会出现中文乱码）<br>4.双击<code>.bat</code>文件，拖入音频和视频文件，回车<br>5.结束</p>
 

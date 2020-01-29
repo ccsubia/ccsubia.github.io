@@ -32,7 +32,7 @@
   <div id="app">
     <main class="content">
       <section class="outer">
-  <article id="post-ICARUS主题更换问题" class="article article-type-post" itemscope
+  <article id="post-icaruserror" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -49,7 +49,7 @@
 
     
     <div class="article-meta">
-      <a href="/2020/01/29/ICARUS%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E9%97%AE%E9%A2%98/" class="article-date">
+      <a href="/2020/01/29/icaruserror/" class="article-date">
   <time datetime="2020-01-29T13:29:00.000Z" itemprop="datePublished">2020-01-29</time>
 </a>
       
@@ -64,7 +64,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">167字</span>
+            <span class="post-count">196字</span>
         </span>
     </span>
 
@@ -84,6 +84,8 @@
 
     
     
+    <div class="tocbot"></div>
+
 
 
 
@@ -97,17 +99,22 @@
       
 
       
-      <ol>
-<li><p>重新执行<code>hexo serve</code>命令，发现报错如下</p>
-<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ERROR </span>Package cheerio is not installed.  </span><br><span class="line"><span class="keyword">ERROR </span>Please install the missing dependencies from the root directory of your Hexo site.</span><br></pre></td></tr></table></figure>
+      <p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/29/icaruserror/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/29/icaruserror/</a></p>
+<h3 id="发现错误"><a href="#发现错误" class="headerlink" title="发现错误"></a>发现错误</h3><ul>
+<li>下载更换ICARUS主题后，重新执行<code>hexo serve</code>命令，发现报错如下<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ERROR </span>Package cheerio is not installed.  </span><br><span class="line"><span class="keyword">ERROR </span>Please install the missing dependencies from the root directory of your Hexo site.</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>原因缺少<code>cheerio</code>依赖，进入<code>blog-hexo</code>目录，执行<code>npm i cheerio -S</code>命令进行安装即可，<code>-S</code>指安装并将其保存到当前项目的配置中，下次就会统一安装了。</p>
+
+</li>
+</ul>
+<h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题"></a>解决问题</h3><ul>
+<li><p>原因是缺少<code>cheerio</code>依赖，进入<code>blog-hexo</code>目录，执行<code>npm i cheerio -S</code>命令进行安装即可，<code>-S</code>指安装并将其保存到当前项目的配置中，下次就会统一安装了。</p>
 </li>
 <li><p>重新执行<code>hexo serve</code>命令，发现如下信息</p>
 <figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">INFO</span>  Checking dependencies  </span><br><span class="line"><span class="builtin-name">INFO</span>  Validating the configuration file  </span><br><span class="line">WARN  themes/icarus/\_config.yml is <span class="keyword">not</span> found. We are creating one <span class="keyword">for</span> you<span class="built_in">..</span>.  </span><br><span class="line"><span class="builtin-name">INFO</span>  themes/icarus/\_config.yml is created. Please restart Hexo <span class="keyword">to</span> apply changes.</span><br></pre></td></tr></table></figure>
-<p>只是提示缺少<code>themes/icarus/_config.yml</code>文件，已经帮助我们生成，再次运行即可正常启动。</p>
 </li>
-</ol>
+<li><p>提示缺少<code>themes/icarus/_config.yml</code>文件，已经帮助我们生成，再次运行即可正常启动。</p>
+</li>
+</ul>
 
       
       <!-- 打赏 -->
@@ -118,7 +125,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/29/ICARUS%E4%B8%BB%E9%A2%98%E6%9B%B4%E6%8D%A2%E9%97%AE%E9%A2%98/" data-id="ck5ze3ss10000sk6b46l8bm8m"
+      <a data-url="http://yoursite.com/2020/01/29/icaruserror/" data-id="ck5zf653i0000w86bcr0u6u7c"
         class="article-share-link">分享</a>
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ICARUS/" rel="tag">ICARUS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%BB%E9%A2%98/" rel="tag">主题</a></li></ul>
