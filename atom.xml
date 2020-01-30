@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-29T14:42:14.692Z</updated>
+  <updated>2020-01-30T08:13:45.687Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/01/29/icaruserror/"/>
     <id>http://yoursite.com/2020/01/29/icaruserror/</id>
     <published>2020-01-29T13:29:00.000Z</published>
-    <updated>2020-01-29T14:42:14.692Z</updated>
+    <updated>2020-01-30T08:13:45.687Z</updated>
     
     <summary type="html">
     
@@ -32,12 +32,14 @@
     </summary>
     
     
-      <category term="纠错" scheme="http://yoursite.com/categories/%E7%BA%A0%E9%94%99/"/>
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
       <category term="主题" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98/"/>
     
       <category term="ICARUS" scheme="http://yoursite.com/tags/ICARUS/"/>
+    
+      <category term="纠错" scheme="http://yoursite.com/tags/%E7%BA%A0%E9%94%99/"/>
     
   </entry>
   
@@ -46,7 +48,7 @@
     <link href="http://yoursite.com/2020/01/29/gitproxy/"/>
     <id>http://yoursite.com/2020/01/29/gitproxy/</id>
     <published>2020-01-29T12:05:00.000Z</published>
-    <updated>2020-01-29T14:41:32.658Z</updated>
+    <updated>2020-01-30T08:14:34.580Z</updated>
     
     <summary type="html">
     
@@ -58,12 +60,12 @@
     </summary>
     
     
-      <category term="原创" scheme="http://yoursite.com/categories/%E5%8E%9F%E5%88%9B/"/>
+      <category term="技术" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF/"/>
     
-    
-      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
       <category term="代理" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%90%86/"/>
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
@@ -98,7 +100,7 @@
     <link href="http://yoursite.com/2020/01/20/bilibili/"/>
     <id>http://yoursite.com/2020/01/20/bilibili/</id>
     <published>2020-01-20T05:41:00.000Z</published>
-    <updated>2020-01-29T14:43:02.890Z</updated>
+    <updated>2020-01-30T08:11:46.587Z</updated>
     
     <summary type="html">
     
@@ -110,7 +112,7 @@
     </summary>
     
     
-      <category term="原创" scheme="http://yoursite.com/categories/%E5%8E%9F%E5%88%9B/"/>
+      <category term="影视" scheme="http://yoursite.com/categories/%E5%BD%B1%E8%A7%86/"/>
     
     
       <category term="bilibili" scheme="http://yoursite.com/tags/bilibili/"/>

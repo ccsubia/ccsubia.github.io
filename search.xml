@@ -21,11 +21,12 @@
 </ul>
 ]]></content>
       <categories>
-        <category>纠错</category>
+        <category>技术</category>
       </categories>
       <tags>
         <tag>主题</tag>
         <tag>ICARUS</tag>
+        <tag>纠错</tag>
       </tags>
   </entry>
   <entry>
@@ -55,11 +56,11 @@
 </ul>
 ]]></content>
       <categories>
-        <category>原创</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>git</tag>
         <tag>代理</tag>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -115,7 +116,7 @@
 <p>3.另存为<code>.bat</code>文件（注意编码方式选择ANSI，否则会出现中文乱码）<br>4.双击<code>.bat</code>文件，拖入音频和视频文件，回车<br>5.结束</p>
 ]]></content>
       <categories>
-        <category>原创</category>
+        <category>影视</category>
       </categories>
       <tags>
         <tag>bilibili</tag>
