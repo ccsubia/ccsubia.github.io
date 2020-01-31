@@ -49,6 +49,7 @@ function nextday() {
     var newdayc = dayup()
     var trueday = new Date()
     if (newdayc > trueday){
+        daydown()
         alert('未发布')
     }
     else{
