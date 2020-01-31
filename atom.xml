@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-31T09:14:44.567Z</updated>
+  <updated>2020-01-31T12:30:20.205Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Bing每日壁纸（每日更新）</title>
     <link href="http://yoursite.com/2020/01/31/jsTest/"/>
     <id>http://yoursite.com/2020/01/31/jsTest/</id>
-    <published>2020-01-31T05:05:19.000Z</published>
-    <updated>2020-01-31T09:14:44.567Z</updated>
+    <published>2020-01-31T05:05:00.000Z</published>
+    <updated>2020-01-31T12:30:20.205Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,41 @@
     </summary>
     
     
+      <category term="壁纸" scheme="http://yoursite.com/categories/%E5%A3%81%E7%BA%B8/"/>
+    
+    
+      <category term="Bing" scheme="http://yoursite.com/tags/Bing/"/>
+    
+      <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日美图</title>
+    <link href="http://yoursite.com/2020/01/31/photo/"/>
+    <id>http://yoursite.com/2020/01/31/photo/</id>
+    <published>2020-01-31T01:13:00.000Z</published>
+    <updated>2020-01-31T12:29:33.220Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;今日美图2019-1-31&quot;&gt;&lt;a href=&quot;#今日美图2019-1-31&quot; class=&quot;headerlink&quot; title=&quot;今日美图2019-1-31&quot;&gt;&lt;/a&gt;今日美图2019-1-31&lt;/h3&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="壁纸" scheme="http://yoursite.com/categories/%E5%A3%81%E7%BA%B8/"/>
+    
+    
+      <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
+    
+      <category term="美图" scheme="http://yoursite.com/tags/%E7%BE%8E%E5%9B%BE/"/>
     
   </entry>
   
