@@ -1,43 +1,59 @@
+Date.prototype.Format = function (fmt) {
+    var o = {
+        "M+": this.getMonth() + 1, //月份 
+        "d+": this.getDate(), //日 
+        "H+": this.getHours(), //小时 
+        "m+": this.getMinutes(), //分 
+        "s+": this.getSeconds(), //秒 
+        "q+": Math.floor((this.getMonth() + 3) / 3), //季度 
+        "S": this.getMilliseconds() //毫秒 
+    };
+    if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+    for (var k in o)
+    if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+    return fmt;
+}
+
 var myDate = new Date();
-date = myDate.toLocaleDateString();
+// date = myDate.toLocaleDateString();
+date = myDate.Format("yyyy-MM-dd")
 //alert(date)
 var update = document.getElementById("date");
 update.innerHTML = date;
+document.getElementById("picshow").src = 'https://bing.lylares.com/download/hd/' + date;
+
 var i = 0
 
 
 function daydown(){
-    alert(myDate);
-    var before = myDate-1000*60*60*24;//当前日期时间戳减去一天时间戳
-    alert(before);
-    var beforeDate = new Date(before);//将时间戳转化为Date对象
-    var beforeresult = beforeDate.toLocaleDateString();
-    myDate = beforeDate;
-    alert(beforeresult)
-    return begoreresult
+    // var dateTime=new Date();
+    dateTime=myDate.setDate(myDate.getDate()-1);
+    dateTime=new Date(dateTime);
+    myDate = dateTime
+    // return dateTime.toLocaleDateString()
+    return myDate
 }
 function dayup(){
-    alert(myDate);
-    var nextday = myDate + 1000*60*60*24;//当前日期时间戳加上一天时间戳
-    alert(nextday);
-    var nextDate = new Date(nextday);//将时间戳转化为Date对象
-    var result = nextDate.toLocaleDateString();
-    myDate = nextDate;
-    alert(result);  
-    return result
+    dateTime=myDate.setDate(myDate.getDate()+1);
+    dateTime=new Date(dateTime);
+    myDate = dateTime
+    // return dateTime.toLocaleDateString()
+    return myDate
 }
 function beforeday() {
-    document.getElementById("picshow").src = 'https://api.berryapi.net/?service=App.Bing.Images&day=' + String(i + 1);
-    i++;
-    update.innerHTML = daydown()
+    var newday = daydown().Format("yyyy-MM-dd")
+    document.getElementById("picshow").src = 'https://bing.lylares.com/download/hd/' + newday;
+    update.innerHTML = newday
 }
-
 function nextday() {
-    if (i - 1 < 0) {
-        alert("未发布")
-    } else {
-        document.getElementById("picshow").src = 'https://api.berryapi.net/?service=App.Bing.Images&day=' + String(i - 1);
-        i--;
-        update.innerHTML = dayup()
-}
+    var newdayc = dayup()
+    var trueday = new Date()
+    if (newdayc > trueday){
+        alert('未发布')
+    }
+    else{
+        var newday = newdayc.Format("yyyy-MM-dd")
+        document.getElementById("picshow").src = 'https://bing.lylares.com/download/hd/' + newday;
+        update.innerHTML = newday
+    }
 }
