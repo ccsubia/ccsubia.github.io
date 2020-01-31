@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Bing每日壁纸（每日更新）</title>
-    <url>/2020/01/31/jsTest/</url>
+    <url>/2020/01/31/bingphoto/</url>
     <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span id = "date"></span></h2><img src = "https://api.berryapi.net/?service=App.Bing.Images&day=-0" id = "picshow">
 
 <!--<a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>< 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 ></a> -->
