@@ -5,7 +5,8 @@
     <url>/2020/01/31/bingphoto/</url>
     <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span id = "date"></span></h2><img src = "https://api.berryapi.net/?service=App.Bing.Images&day=-0" id = "picshow">
 
-<!--<a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>< 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 ></a> -->
+<p><a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
+<script type="text/javascript" src="/js/nowday.js"></script>
 <blockquote>
 <p><a href="https://ccsubia.github.io/2019Bing/2019Bing.html" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
 </blockquote>
