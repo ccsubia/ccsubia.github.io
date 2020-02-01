@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-31T13:58:38.408Z</updated>
+  <updated>2020-02-01T06:33:54.259Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Bing每日壁纸（每日更新）</title>
-    <link href="http://yoursite.com/2020/01/31/bingphoto/"/>
-    <id>http://yoursite.com/2020/01/31/bingphoto/</id>
-    <published>2020-01-31T05:05:00.000Z</published>
-    <updated>2020-01-31T13:58:38.408Z</updated>
+    <link href="http://yoursite.com/2020/02/01/bingphoto/"/>
+    <id>http://yoursite.com/2020/02/01/bingphoto/</id>
+    <published>2020-02-01T06:25:00.000Z</published>
+    <updated>2020-02-01T06:33:54.259Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,14 @@
       
         
         
-          &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span id = &quot;date&quot;&gt;&lt;/span&gt;&lt;/h2&gt;&lt;img
+          &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span id =
         
       
     
     </summary>
     
     
-      <category term="壁纸" scheme="http://yoursite.com/categories/%E5%A3%81%E7%BA%B8/"/>
+      <category term="图片" scheme="http://yoursite.com/categories/%E5%9B%BE%E7%89%87/"/>
     
     
       <category term="Bing" scheme="http://yoursite.com/tags/Bing/"/>
@@ -46,11 +46,40 @@
   </entry>
   
   <entry>
+    <title>随机图片</title>
+    <link href="http://yoursite.com/2020/02/01/rand/"/>
+    <id>http://yoursite.com/2020/02/01/rand/</id>
+    <published>2020-02-01T05:17:00.000Z</published>
+    <updated>2020-02-01T05:38:57.802Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;随机图片&quot;&gt;&lt;a href=&quot;#随机图片&quot; class=&quot;headerlink&quot; title=&quot;随机图片  &quot;&gt;&lt;/a&gt;随机图片  &lt;img src = &quot;https://bing.ioliu.cn/v1/rand&quot;  alt=&quot;随机图片&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="图片" scheme="http://yoursite.com/categories/%E5%9B%BE%E7%89%87/"/>
+    
+    
+      <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
+    
+      <category term="图片" scheme="http://yoursite.com/tags/%E5%9B%BE%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>今日美图</title>
     <link href="http://yoursite.com/2020/01/31/photo/"/>
     <id>http://yoursite.com/2020/01/31/photo/</id>
     <published>2020-01-31T01:13:00.000Z</published>
-    <updated>2020-01-31T12:29:33.220Z</updated>
+    <updated>2020-02-01T05:35:55.756Z</updated>
     
     <summary type="html">
     
@@ -65,7 +94,7 @@
     </summary>
     
     
-      <category term="壁纸" scheme="http://yoursite.com/categories/%E5%A3%81%E7%BA%B8/"/>
+      <category term="图片" scheme="http://yoursite.com/categories/%E5%9B%BE%E7%89%87/"/>
     
     
       <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
