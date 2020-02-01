@@ -87,11 +87,14 @@ onerror="this.src='https://bing.ioliu.cn/v1/rand';this.οnerrοr=null"></p>
 </ul>
 <h3 id="2-代理服务器"><a href="#2-代理服务器" class="headerlink" title="2. 代理服务器"></a>2. 代理服务器</h3><ul>
 <li>打开代理软件，连接上代理服务器</li>
-<li>确定代理软件的占用端口，一般默认<code>1080端口</code> （可暂时跳过<ol>
-<li>打开设备管理器，找到代理软件的详细信息确认PID<br><img src="https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png" alt="pid"></li>
-<li><code>CMD</code>打开命令行，查看端口占用信息,使用<code>netstat -ano</code>命令即可查看全部端口占用信息</li>
-<li><code>Ctrl</code>+<code>F</code>查找之前找到的PID，确认占用端口<br><img src="https://i.loli.net/2020/01/29/uzPsYNweKmcBOQJ.png" alt="port"></li>
-</ol>
+<li>确定代理软件的占用端口，一般默认<code>1080端口</code> 今天突然发现蛇皮了，将鼠标移动到小图标会显示出端口号<br><img src="images/pasted-2.png" alt="upload successful"><s>
+  1. 打开设备管理器，找到代理软件的详细信息确认PID
+  ![pid](https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png)
+  2. `CMD`打开命令行，查看端口占用信息,使用`netstat -ano`命令即可查看全部端口占用信息
+  3. `Ctrl`+`F`查找之前找到的PID，确认占用端口
+  ![port](https://i.loli.net/2020/01/29/uzPsYNweKmcBOQJ.png)
+  </s>
+
 </li>
 </ul>
 <h3 id="3-设置git代理"><a href="#3-设置git代理" class="headerlink" title="3. 设置git代理"></a>3. 设置git代理</h3><ul>
