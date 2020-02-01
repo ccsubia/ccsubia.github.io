@@ -88,7 +88,7 @@ onerror="this.src='https://bing.ioliu.cn/v1/rand';this.οnerrοr=null"></p>
 <h3 id="2-代理服务器"><a href="#2-代理服务器" class="headerlink" title="2. 代理服务器"></a>2. 代理服务器</h3><ul>
 <li><p>打开代理软件，连接上代理服务器</p>
 </li>
-<li><p>确定代理软件的占用端口，一般默认<code>1080端口</code> 今天突然发现蛇皮了，将鼠标移动到小图标会显示出端口号<br><img src="./images/pasted-2.png" alt="upload successful"><br>如果你用的其他代理软件，不知道端口号是多少，可用下面方法查看</p>
+<li><p>确定代理软件的占用端口，一般默认<code>1080端口</code> 今天突然发现蛇皮了，将鼠标移动到小图标会显示出端口号<br><img src="/images/pasted-2.png" alt="upload successful"><br>如果你用的其他代理软件，不知道端口号是多少，可用下面方法查看</p>
 <ol>
 <li>打开设备管理器，找到代理软件的详细信息确认PID<br><img src="https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png" alt="pid"></li>
 <li><code>CMD</code>打开命令行，查看端口占用信息,使用<code>netstat -ano</code>命令即可查看全部端口占用信息</li>
