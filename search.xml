@@ -3,8 +3,8 @@
   <entry>
     <title>Bing每日壁纸（每日更新）</title>
     <url>/2020/02/01/bingphoto/</url>
-    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span id = "date"></span></h2><p><img src = "https://bing.lylares.com/download/hd/2020-02-01" id = "picshow"
-onerror="this.src='https://bing.ioliu.cn/v1/rand';this.οnerrοr=null"></p>
+    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span id = "date"></span></h2><p><img src = "" id = "picshow" 
+onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';this.οnerrοr=null"></p>
 <p><a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
 <blockquote>
 <p><a href="https://ccsubia.github.io/2019Bing/2019Bing.html" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
@@ -16,21 +16,6 @@ onerror="this.src='https://bing.ioliu.cn/v1/rand';this.οnerrοr=null"></p>
       <tags>
         <tag>Bing</tag>
         <tag>壁纸</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>随机图片</title>
-    <url>/2020/02/01/rand/</url>
-    <content><![CDATA[<h2 id="随机图片"><a href="#随机图片" class="headerlink" title="随机图片  "></a>随机图片 <a id="more"></a> <img src = "https://bing.ioliu.cn/v1/rand"  alt="随机图片" onerror="this.src='https://bing.ioliu.cn/v1/rand';this.οnerrοr=null"/></h2><blockquote>
-<p><a href="https://ccsubia.github.io/2019Bing/2019Bing.html" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>图片</category>
-      </categories>
-      <tags>
-        <tag>壁纸</tag>
-        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
