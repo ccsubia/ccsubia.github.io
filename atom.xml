@@ -39,9 +39,9 @@
       <category term="图片" scheme="http://yoursite.com/categories/%E5%9B%BE%E7%89%87/"/>
     
     
-      <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
-    
       <category term="Bing" scheme="http://yoursite.com/tags/Bing/"/>
+    
+      <category term="壁纸" scheme="http://yoursite.com/tags/%E5%A3%81%E7%BA%B8/"/>
     
   </entry>
   
