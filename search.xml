@@ -9,13 +9,13 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
 <blockquote>
 <p><a href="https://ccsubia.github.io/2019Bing/2019Bing.html" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
 </blockquote>
-<script type="text/javascript" src="/js/nowday_1.1.js"></script>]]></content>
+<script type="text/javascript" src="/js/nowday_1.2.js"></script>]]></content>
       <categories>
         <category>图片</category>
       </categories>
       <tags>
-        <tag>Bing</tag>
         <tag>壁纸</tag>
+        <tag>Bing</tag>
       </tags>
   </entry>
   <entry>
