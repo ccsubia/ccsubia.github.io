@@ -252,7 +252,7 @@
             }
         }
     }
-    window.$crisp=[];window.CRISP_WEBSITE_ID="4f617ffa-2484-41ba-83d0-6703a91c362b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+    
 })(jQuery);
 
 

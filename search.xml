@@ -19,19 +19,6 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
       </tags>
   </entry>
   <entry>
-    <title>今日美图</title>
-    <url>/2020/01/31/photo/</url>
-    <content><![CDATA[<h3 id="今日美图2019-1-31"><a href="#今日美图2019-1-31" class="headerlink" title="今日美图2019-1-31"></a>今日美图2019-1-31</h3><p><img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9" alt=""></p>
-]]></content>
-      <categories>
-        <category>图片</category>
-      </categories>
-      <tags>
-        <tag>壁纸</tag>
-        <tag>美图</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ICARUS主题更换问题</title>
     <url>/2020/01/29/icaruserror/</url>
     <content><![CDATA[<p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/29/icaruserror/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/29/icaruserror/</a></p>
