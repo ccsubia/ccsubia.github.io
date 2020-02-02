@@ -14,8 +14,8 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
         <category>图片</category>
       </categories>
       <tags>
-        <tag>Bing</tag>
         <tag>壁纸</tag>
+        <tag>Bing</tag>
       </tags>
   </entry>
   <entry>
