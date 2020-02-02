@@ -224,7 +224,6 @@
 	
     document.body.addEventListener('click',
     function(e) {
-      onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100);"
 	//过滤a标签
         if (e.target.tagName == 'A') {
             return;
