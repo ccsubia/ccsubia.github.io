@@ -21,7 +21,6 @@ date = showDate.Format("yyyy-MM-dd");
 var update = document.getElementById("date");
 update.innerHTML = date;
 document.getElementById("picshow").src = apiUrl + date; // 初始化今日图片
-alert(apiUrl+date)
 
 function day_down(){ // 往前推一天
     // var dateTime=new Date();
