@@ -28,8 +28,8 @@
 </head>
 
 </html>
-
-<!-- <script src="../source/js/canvas-nest.min.js"></script> -->
+<script src="/js/fireworks.js"></script>
+<!-- <script src="./js/click.js"></script> -->
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100);">
   <div id="app">
     <main class="content">
@@ -73,7 +73,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/%E5%93%88%E5%93%A5%E6%B5%8B%E8%AF%95/index.html" data-id="ck64sqglm000ing6bf335crdt"
+      <a data-url="http://yoursite.com/%E5%93%88%E5%93%A5%E6%B5%8B%E8%AF%95/index.html" data-id="ck669q6c40021ls6b8soz1a9b"
         class="article-share-link">分享</a>
       
     </footer>
@@ -145,6 +145,11 @@
 </section>
       <footer class="footer">
   <div class="outer">
+    <ul>
+      <div style="text-align: center;">
+        <canvas id="canvas" style="width:60%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+      </div>
+    </ul>
     <ul class="list-inline">
       <li>
         <div id = "days" ></div>
@@ -184,6 +189,7 @@
     </ul>
   </div>
 </footer>
+<script src="/js/Clock.js"></script>
 <script language="javascript">
 function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
@@ -210,7 +216,7 @@ function setzero(i){
 show_date_time();
 </script>
     <div class="to_top">
-        <div class="totop" id="totop">
+     <div class="totop" id="totop">
   <i class="ri-arrow-up-line"></i>
 </div>
       </div>

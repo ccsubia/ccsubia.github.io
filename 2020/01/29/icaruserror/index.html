@@ -28,8 +28,8 @@
 </head>
 
 </html>
-
-<!-- <script src="../source/js/canvas-nest.min.js"></script> -->
+<script src="/js/fireworks.js"></script>
+<!-- <script src="./js/click.js"></script> -->
 <body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100);">
   <div id="app">
     <main class="content">
@@ -127,7 +127,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/29/icaruserror/" data-id="ck64sqglx000ung6bf0sm9otn"
+      <a data-url="http://yoursite.com/2020/01/29/icaruserror/" data-id="ck669q6b2000wls6bfsr51qab"
         class="article-share-link">分享</a>
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ICARUS/" rel="tag">ICARUS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%BB%E9%A2%98/" rel="tag">主题</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BA%A0%E9%94%99/" rel="tag">纠错</a></li></ul>
@@ -222,6 +222,11 @@
 </section>
       <footer class="footer">
   <div class="outer">
+    <ul>
+      <div style="text-align: center;">
+        <canvas id="canvas" style="width:60%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+      </div>
+    </ul>
     <ul class="list-inline">
       <li>
         <div id = "days" ></div>
@@ -261,6 +266,7 @@
     </ul>
   </div>
 </footer>
+<script src="/js/Clock.js"></script>
 <script language="javascript">
 function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
@@ -287,7 +293,7 @@ function setzero(i){
 show_date_time();
 </script>
     <div class="to_top">
-        <div class="totop" id="totop">
+     <div class="totop" id="totop">
   <i class="ri-arrow-up-line"></i>
 </div>
       </div>
