@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>每日一言</title>
+    <url>/2020/02/04/word_day/</url>
+    <content><![CDATA[<script src="https://unpkg.com/axios/dist/axios.min.js">
+</script>
+<h2 id="每日一言-更新"><a href="#每日一言-更新" class="headerlink" title="每日一言 更新"></a>每日一言 <span class = "today" id = "today"></span>更新</h2>  <br>
+
+<ul>
+<li><h3 id="ddd"><a href="#ddd" class="headerlink" title="ddd"></a><span id = "author1">ddd</span></h3><h3 id="ddd-1"><a href="#ddd-1" class="headerlink" title="ddd"></a><span id = "content1">ddd</span></h3><br>
+</li>
+<li><h3 id="ddd-2"><a href="#ddd-2" class="headerlink" title="ddd"></a><span id = "author2">ddd</span></h3><h3 id="ddd-3"><a href="#ddd-3" class="headerlink" title="ddd"></a><span id = "content2">ddd</span></h3><h3 id="ddd-4"><a href="#ddd-4" class="headerlink" title="ddd"></a><span id = "content_en2">ddd</span></h3><br>
+</li>
+<li><h3 id="ddd-5"><a href="#ddd-5" class="headerlink" title="ddd"></a><span id = "author3">ddd</span></h3><h3 id="ddd-6"><a href="#ddd-6" class="headerlink" title="ddd"></a><span id = "content3">ddd</span></h3><h3 id="ddd-7"><a href="#ddd-7" class="headerlink" title="ddd"></a><span id = "content_en3">ddd</span></h3><script type="text/javascript" src="/js/today.js"></script>
+<script src="/js/word_day.js"></script>
+<a id="more"></a>
+<script src="/js/showpic.js"></script></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>每日故事</title>
+    <url>/2020/02/04/daystory/</url>
+    <content><![CDATA[<script src="https://unpkg.com/axios/dist/axios.min.js">
+</script>
+<h2 id="每日故事-更新"><a href="#每日故事-更新" class="headerlink" title="每日故事 更新"></a>每日故事 <span class = "today" id = "today"></span>更新</h2><h3 id=""><a href="#" class="headerlink" title=""></a><span id = "story_title"></span></h3>  <img src = "" id = "day_pic" style = "display:none">
+  <br>
+  <span id="joke" ></span><br>
+<script type="text/javascript" src="/js/today.js"></script>
+<script src="/js/AjaxTest.js"></script>
+<a id="more"></a>
+  <br>
+<script src="/js/showpic.js"></script>]]></content>
+      <categories>
+        <category>故事</category>
+      </categories>
+      <tags>
+        <tag>每日故事</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Bing每日壁纸（每日更新）</title>
     <url>/2020/02/01/bingphoto/</url>
-    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span id = "date"></span></h2><p><img src = "" id = "picshow" 
+    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span class = "date" id = "date"></span></h2><p><img src = "" id = "picshow" 
 onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';this.οnerrοr=null"></p>
 <p><a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
 <blockquote>

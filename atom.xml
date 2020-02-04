@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-02T14:23:17.300Z</updated>
+  <updated>2020-02-04T14:29:16.743Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,65 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>每日一言</title>
+    <link href="http://yoursite.com/2020/02/04/word_day/"/>
+    <id>http://yoursite.com/2020/02/04/word_day/</id>
+    <published>2020-02-04T13:45:56.000Z</published>
+    <updated>2020-02-04T14:29:16.743Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&gt;
+&lt;/script&gt;
+&lt;h2 id=&quot;每日一言-更新&quot;&gt;&lt;a href=&quot;#每日一言-更新&quot; class=&quot;headerlink&quot; title=&quot;每日一言 更新&quot;&gt;&lt;/a&gt;每日一言 &lt;span class = &quot;today&quot; id = &quot;today&quot;&gt;&lt;/span&gt;更新&lt;/h2&gt;  &lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;ddd&quot;&gt;&lt;a href=&quot;#ddd&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;author1&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;h3 id=&quot;ddd-1&quot;&gt;&lt;a href=&quot;#ddd-1&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;content1&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;ddd-2&quot;&gt;&lt;a href=&quot;#ddd-2&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;author2&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;h3 id=&quot;ddd-3&quot;&gt;&lt;a href=&quot;#ddd-3&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;content2&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;h3 id=&quot;ddd-4&quot;&gt;&lt;a href=&quot;#ddd-4&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;content_en2&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;br&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h3 id=&quot;ddd-5&quot;&gt;&lt;a href=&quot;#ddd-5&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;author3&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;h3 id=&quot;ddd-6&quot;&gt;&lt;a href=&quot;#ddd-6&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;content3&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;h3 id=&quot;ddd-7&quot;&gt;&lt;a href=&quot;#ddd-7&quot; class=&quot;headerlink&quot; title=&quot;ddd&quot;&gt;&lt;/a&gt;&lt;span id = &quot;content_en3&quot;&gt;ddd&lt;/span&gt;&lt;/h3&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/js/today.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/word_day.js&quot;&gt;&lt;/script&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>每日故事</title>
+    <link href="http://yoursite.com/2020/02/04/daystory/"/>
+    <id>http://yoursite.com/2020/02/04/daystory/</id>
+    <published>2020-02-04T10:12:00.000Z</published>
+    <updated>2020-02-04T13:24:47.928Z</updated>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;https://unpkg.com/axios/dist/axios.min.js&quot;&gt;
+&lt;/script&gt;
+&lt;h2 id=&quot;每日故事-更新&quot;&gt;&lt;a href=&quot;#每日故事-更新&quot; class=&quot;headerlink&quot; title=&quot;每日故事 更新&quot;&gt;&lt;/a&gt;每日故事 &lt;span class = &quot;today&quot; id = &quot;today&quot;&gt;&lt;/span&gt;更新&lt;/h2&gt;&lt;h3 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;span id = &quot;story_title&quot;&gt;&lt;/span&gt;&lt;/h3&gt;  &lt;img src = &quot;&quot; id = &quot;day_pic&quot; style = &quot;display:none&quot;&gt;
+  &lt;br&gt;
+  &lt;span id=&quot;joke&quot; &gt;&lt;/span&gt;&lt;br&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/js/today.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/AjaxTest.js&quot;&gt;&lt;/script&gt;
+    
+    </summary>
+    
+    
+      <category term="故事" scheme="http://yoursite.com/categories/%E6%95%85%E4%BA%8B/"/>
+    
+    
+      <category term="每日故事" scheme="http://yoursite.com/tags/%E6%AF%8F%E6%97%A5%E6%95%85%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bing每日壁纸（每日更新）</title>
     <link href="http://yoursite.com/2020/02/01/bingphoto/"/>
     <id>http://yoursite.com/2020/02/01/bingphoto/</id>
     <published>2020-02-01T06:25:00.000Z</published>
-    <updated>2020-02-02T14:23:17.300Z</updated>
+    <updated>2020-02-04T12:29:25.168Z</updated>
     
     <summary type="html">
     
@@ -29,7 +83,7 @@
       
         
         
-          &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span id =
+          &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span class = &quot;date&quot; id =
         
       
     
