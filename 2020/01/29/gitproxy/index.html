@@ -66,7 +66,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">234字</span>
+            <span class="post-count">312字</span>
         </span>
     </span>
 
@@ -123,7 +123,10 @@
 <li><p>打开<code>Git Bash</code></p>
 </li>
 <li><p>设置代理</p>
-<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#全局设置</span></span><br><span class="line">git config <span class="params">--global</span> http.proxy socks5:<span class="string">//localhost</span><span class="function">:1080</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本次设置</span></span><br><span class="line">git clone https:<span class="string">//github.com/example/example.git</span> <span class="params">--config</span> <span class="string">"http.proxy=127.0.0.1:1080"</span></span><br></pre></td></tr></table></figure></li>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#全局设置</span></span><br><span class="line">git config <span class="params">--global</span> http.proxy socks5:<span class="string">//127.0.0.1</span><span class="function">:1080</span></span><br><span class="line">git config <span class="params">--global</span> https.proxy https:<span class="string">//127.0.0.1</span><span class="function">:1080</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#只对github.com代理</span></span><br><span class="line">git config <span class="params">--global</span> http.https:<span class="string">//github.com.proxy</span> socks5:<span class="string">//127.0.0.1</span><span class="function">:1080</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 本次设置</span></span><br><span class="line">git clone https:<span class="string">//github.com/example/example.git</span> <span class="params">--config</span> <span class="string">"http.proxy=127.0.0.1:1080"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>取消设置代理</p>
+<figure class="highlight tcl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 取消全局代理</span></span><br><span class="line">  git config --<span class="keyword">global</span> --<span class="keyword">unset</span> <span class="keyword">http</span>.proxy</span><br><span class="line">  git config --<span class="keyword">global</span> --<span class="keyword">unset</span> https.proxy</span><br><span class="line">  </span><br><span class="line"><span class="comment">  # 或者</span></span><br><span class="line">  npm config delete proxy</span><br><span class="line">  </span><br><span class="line"><span class="comment">  # 取消github.com代理</span></span><br><span class="line">  git config --<span class="keyword">global</span> --<span class="keyword">unset</span> <span class="keyword">http</span>.https://github.com.proxy</span><br></pre></td></tr></table></figure></li>
 </ul>
 
       
