@@ -12,12 +12,18 @@
 </li>
 <li><h3 id="ddd-2"><a href="#ddd-2" class="headerlink" title="ddd"></a><span id = "author2">ddd</span></h3><h3 id="ddd-3"><a href="#ddd-3" class="headerlink" title="ddd"></a><span id = "content2">ddd</span></h3><h3 id="ddd-4"><a href="#ddd-4" class="headerlink" title="ddd"></a><span id = "content_en2">ddd</span></h3><br>
 </li>
-<li><h3 id="ddd-5"><a href="#ddd-5" class="headerlink" title="ddd"></a><span id = "author3">ddd</span></h3><h3 id="ddd-6"><a href="#ddd-6" class="headerlink" title="ddd"></a><span id = "content3">ddd</span></h3><h3 id="ddd-7"><a href="#ddd-7" class="headerlink" title="ddd"></a><span id = "content_en3">ddd</span></h3><script type="text/javascript" src="/js/today.js"></script>
+<li><h3 id="ddd-5"><a href="#ddd-5" class="headerlink" title="ddd"></a><span id = "author3">ddd</span></h3><h3 id="ddd-6"><a href="#ddd-6" class="headerlink" title="ddd"></a><span id = "content3">ddd</span></h3><h3 id="ddd-7"><a href="#ddd-7" class="headerlink" title="ddd"></a><span id = "content_en3">ddd</span></h3><script type="text/javascript" src="/js/today_min.js"></script>
 <script src="/js/word_day.js"></script>
 <a id="more"></a>
 <script src="/js/showpic.js"></script></li>
 </ul>
 ]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>每日一言</tag>
+      </tags>
   </entry>
   <entry>
     <title>每日故事</title>
@@ -27,13 +33,13 @@
 <h2 id="每日故事-更新"><a href="#每日故事-更新" class="headerlink" title="每日故事 更新"></a>每日故事 <span class = "today" id = "today"></span>更新</h2><h3 id=""><a href="#" class="headerlink" title=""></a><span id = "story_title"></span></h3>  <img src = "" id = "day_pic" style = "display:none">
   <br>
   <span id="joke" ></span><br>
-<script type="text/javascript" src="/js/today.js"></script>
+<script type="text/javascript" src="/js/today_min.js"></script>
 <script src="/js/AjaxTest.js"></script>
 <a id="more"></a>
   <br>
 <script src="/js/showpic.js"></script>]]></content>
       <categories>
-        <category>故事</category>
+        <category>文字</category>
       </categories>
       <tags>
         <tag>每日故事</tag>
@@ -44,11 +50,11 @@
     <url>/2020/02/01/bingphoto/</url>
     <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span class = "date" id = "date"></span></h2><p><img src = "" id = "picshow" 
 onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';this.οnerrοr=null"></p>
-<p><a href="#" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="#" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
+<p><a href="javascript:void(0)" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="javascript:void(0)" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
 <blockquote>
-<p><a href="https://ccsubia.github.io/2019Bing/2019Bing.html" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
+<p><a href="https://ccsubia.github.io/2019Bing" target="_blank" rel="noopener">2019Bing壁纸汇总</a></p>
 </blockquote>
-<script type="text/javascript" src="/js/nowday_1.2.js"></script>]]></content>
+<script type="text/javascript" src="/js/bingday_1.2_min.js"></script>]]></content>
       <categories>
         <category>置顶</category>
       </categories>

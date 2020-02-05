@@ -12,15 +12,15 @@ Date.prototype.Format = function (fmt) {
     for (var k in o)
     if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
     return fmt;
-}
-var trueDate = new Date();  // 定义真实日期
-date = trueDate.Format("yyyy-MM-dd");
-var update = document.getElementsByClassName("today");
-up_all_day(update,date)
+};
+var trueDate1 = new Date();  // 定义真实日期
+var date1 = trueDate1.Format("yyyy-MM-dd");
+var update1 = document.getElementsByClassName("today");
+up_all_day(update1,date1);
 function up_all_day(x,date){
     var i;
     for (i = 0; i < x.length; i++) {
     x[i].innerHTML = date;
     }
-}
+};
 
