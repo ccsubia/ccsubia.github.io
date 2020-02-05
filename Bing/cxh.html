@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="theme-color" content="#222">
+  <meta charset="utf-8" />
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>
+     BIA
+  </title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+  
+  <link rel="shortcut icon" href="/1536261822-04-removebg-preview.ico" />
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<script src="/js/pace.min.js"></script>
+
+
+  
+
+  
+
+<link rel="alternate" href="/atom.xml" title="BIA" type="application/atom+xml">
+</head>
+
+</html>
+<script src="/js/fireworks.js"></script>
+<!-- <script src="./js/click.js"></script> -->
+<body onLoad="setTimeout(function() {window.scrollTo(0, 1)}, 100);">
+  <div id="app">
+    <main class="content">
+      <section class="outer">
+  <article id="page-" class="article article-type-page" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+
+    
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+
+
+      
+
+      
+      <!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>抽象话生成器 网页版</title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+
+    <meta name="description" content="一键生成抽象话">
+    <meta name="author" content="chenxuuu">
+
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="alternate" href="/atom.xml" title="BIA" type="application/atom+xml">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>
+                    抽象话生成器 网页版
+                </h3>
+                <div class="alert alert-warning alert-dismissable">
+                    <h4>注意！</h4>
+                    生成时请注意温文儒雅。<br/>
+                    telegram里@chouxiangbot也可以生成抽象话
+                </div>
+                <div class="form-group">
+                    <label for="imei">
+                        要转换的语句
+                    </label>
+                    <input type="text" class="form-control" id="rawText" autofocus placeholder="输入你要转换的语句">
+                </div>
+                <button class="btn btn-primary btn-block btn-outline-primary" onclick="getResult()" id="create">
+                    生成抽象话
+                </button>
+                <div class="form-group">
+                    <label for="imei">
+                        转换结果
+                    </label>
+                    <input type="text" class="form-control" id="resultText">
+                </div>
+                <button class="btn btn-primary btn-block btn-outline-primary" id="d_clip_button"
+                    data-clipboard-target="#resultText">
+                    复制结果
+                </button>
+                <br/>
+                <div class="form-group">
+                    <label for="imei">
+                        新功能：还原抽象话到拼音（只支持还原本工具转换的结果）
+                    </label>
+                    <input type="text" class="form-control" id="chouxiangText">
+                </div>
+                <button class="btn btn-primary btn-block btn-outline-primary" onclick="retrenResult()">
+                    还原抽象话到拼音
+                </button>
+                <br /><br /><br />
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://utteranc.es/client.js" repo="chenxuuu/chouxianghua" issue-number="1" theme="github-light"
+        crossorigin="anonymous" async>
+        </script> -->
+    by <a href="https://www.chenxublog.com/" target="_blank">晨旭</a> |
+    <a href="https://github.com/chenxuuu/chouxianghua" target="_blank">GitHub源码（欢迎star）</a>
+    <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        $("#create").attr({"disabled":"disabled"});
+        $("#create").text("加载中，请稍候。。。");
+        function getResult() {
+            if(document.getElementById('rawText').value == ""){
+                document.getElementById("resultText").value = "👇🈹🌶里转🈳7⃣呢¿敲🐔🈹字8⃣❕";
+            }
+            else
+            {
+                document.getElementById("resultText").value = "生成中，请稍候。。。";
+                document.getElementById("resultText").value = chouxiang(document.getElementById('rawText').value);
+            }
+        }
+        function retrenResult() {
+            if(document.getElementById('chouxiangText').value == ""){
+                document.getElementById("resultText").value = "你搁那里转空气呢？敲几个字吧！";
+            }
+            else
+            {
+                document.getElementById("resultText").value = "还原中，请稍候。。。";
+                document.getElementById("resultText").value = dechouxiang(document.getElementById('chouxiangText').value);
+            }
+        }
+    </script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script>
+        var btn = document.getElementById('d_clip_button');
+        var clipboard = new ClipboardJS(btn);
+        clipboard.on('success', function (e) {
+            alert("复制成功~");
+        });
+        clipboard.on('error', function (e) {
+            alert("复制失败了呢，你还是手动复制吧");
+        });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?5762197b261e8aa1c5033c7d7b146ecd";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        if(location.search.substring(1)-(new Date()).valueOf() < -1000 * 60)
+        {
+            if(window.location.href.indexOf("?") < 0)
+                location.href = window.location.href+"?"+(new Date()).valueOf();
+            else
+                location.href = window.location.href.substring(0,window.location.href.indexOf("?")+1)+(new Date()).valueOf();
+        }
+
+    </script>
+    <script>
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://chenxuuu.gitee.io/chouxianghua/js/grapheme-splitter.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://chenxuuu.gitee.io/chouxianghua/js/cxh.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</body>
+
+</html>
+
+      
+      <!-- 打赏 -->
+      
+      <div id="reward-btn">
+        打赏
+      </div>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/Bing/cxh.html" data-id="ck68zdo8o00117c6b4a1t6kqy"
+        class="article-share-link">分享</a>
+      
+    </footer>
+
+  </div>
+
+  
+  
+
+  
+
+  
+  
+<!-- valine评论 -->
+<div id="vcomments-box">
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        notify: false,
+        verify: false,
+        app_id: 'f1VtIDBdWH9WVV9oMPPRN8VT-gzGzoHsz',
+        app_key: 'ezheRzO8HRIWrOixbksz8Aem',
+        path: window.location.pathname,
+        avatar: 'mp',
+        placeholder: '给我的文章加点评论吧~',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
+
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
+
+  
+
+</article>
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <div style="text-align: center;">
+        <canvas id="canvas" style="width:60%;">当前浏览器不支持canvas，请更换浏览器后再试</canvas>
+      </div>
+    </ul>
+    <ul class="list-inline">
+      <li>
+        <div id = "days" ></div>
+      </li>
+      <li>
+        <div style="text-align: right;">
+          &copy;
+          2019-2020
+          <span>BY</span>
+          HU
+        </div>
+      </li>
+      <li>
+        <div style="text-align: right;">友情链接：<a href="https://christin519.github.io/" target="_blank" rel="noopener">旺仔博客</a>
+        <a href="http://47.104.136.122:8090/" target="_blank" rel="noopener">旺仔博客2</a></div>
+      </li>
+      <li>
+        
+      </li>
+    </ul>
+    <ul class="list-inline">
+      <li>
+        
+        
+        <ul class="list-inline">
+  <li>本页浏览次数: <span id="busuanzi_value_page_pv"></span></li>
+  <li>访客数: <span id="busuanzi_value_site_uv"></span></li>
+</ul>
+        
+      </li>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s4.cnzz.com/z_stat.php?id=1278591865&amp;web_id=1278591865'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>
+<script src="/js/Clock.js"></script>
+<script language="javascript">
+function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("12/29/2019 19:00:00");
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+    document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+    if (i<10)
+        {i="0" + i};
+    return i;
+}
+show_date_time();
+</script>
+    <div class="to_top">
+     <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+      </div>
+    </main>
+    
+      <aside class="sidebar">
+        
+        <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/IMG_20200131_172928-removebg-preview.png" alt="BIA"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">文章</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/2019Bing">2019Bing</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="https://google.zenith.workers.dev" target="_blank" rel="noopener">Google</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="https://hu.zenith.workers.dev" target="_blank" rel="noopener">BIAJI盘</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="Search">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+      </aside>
+      <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="/images/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
+    
+  </div>
+</div>
+      
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+<script>
+  var ayerConfig = {
+    mathjax: false
+  }
+</script>
+
+
+<script src="/js/ayer.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
+
+
+
+<script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
+  
+  
+
+  </div>
+</body>
+</html>
