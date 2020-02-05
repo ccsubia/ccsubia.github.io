@@ -18,9 +18,9 @@ var date3 = {
 }
 
 function get_story(date,i) {
-    axios.get('https://api.berryapi.net/', date/*  {
+    axios.get('https://api.berryapi.net/', {
             params: date
-        } */)
+        })
         .then(
             function (response) {
                 console.log(response.data);
