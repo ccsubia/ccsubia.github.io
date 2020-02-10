@@ -262,7 +262,7 @@
     </ul>
     <ul class="list-inline">
       <li>
-        <div id = "days" ></div>
+        <div id="days"></div>
       </li>
       <li>
         <div style="text-align: right;">
@@ -272,13 +272,9 @@
           HU
         </div>
       </li>
-      <li>
-        <div style="text-align: right;">友情链接：<a href="https://christin519.github.io/" target="_blank" rel="noopener">旺仔博客</a>
-        <a href="http://47.104.136.122:8090/" target="_blank" rel="noopener">旺仔博客2</a></div>
-      </li>
-      <li>
+      <!-- <li>
         
-      </li>
+      </li> -->
     </ul>
     <ul class="list-inline">
       <li>
@@ -297,33 +293,47 @@
         
       </li>
     </ul>
+    <ul>
+      <li>
+        <span style="color: #ffff00;"> 友情链接：<br></span>
+        <span style="margin-left: 20px;">→</span>
+        <span >
+          <a href="https://christin519.github.io/" target="_blank" rel="noopener" style=" text-decoration: none;"><span> 旺仔博客 </span></a>
+          <a href="http://47.104.136.122:8090/" target="_blank" rel="noopener" style=" text-decoration: none;"> <span> 旺仔博客2 </span></a>
+          <a href="http://xiaosenfang.cn/" target="_blank" rel="noopener" style=" text-decoration: none;"> <span> 肖老师的站 </span></a>
+          <a href="https://t.me/ccsubia/" target="_blank" rel="noopener" style=" text-decoration: none;"> <span> TG群组 </span></a>
+        </span>
+      </li>
+    </ul>
   </div>
 </footer>
 <script src="/js/Clock.js"></script>
 <script language="javascript">
-function show_date_time(){
+  function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
-    BirthDay=new Date("12/29/2019 19:00:00");
-    today=new Date();
-    timeold=(today.getTime()-BirthDay.getTime());
-    sectimeold=timeold/1000
-    secondsold=Math.floor(sectimeold);
-    msPerDay=24*60*60*1000
-    e_daysold=timeold/msPerDay
-    daysold=Math.floor(e_daysold);
-    e_hrsold=(e_daysold-daysold)*24;
-    hrsold=setzero(Math.floor(e_hrsold));
-    e_minsold=(e_hrsold-hrsold)*60;
-    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
-    seconds=setzero(Math.floor((e_minsold-minsold)*60));
-    document.getElementById('days').innerHTML="本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
-}
-function setzero(i){
-    if (i<10)
-        {i="0" + i};
+    BirthDay = new Date("12/29/2019 19:00:00");
+    today = new Date();
+    timeold = (today.getTime() - BirthDay.getTime());
+    sectimeold = timeold / 1000
+    secondsold = Math.floor(sectimeold);
+    msPerDay = 24 * 60 * 60 * 1000
+    e_daysold = timeold / msPerDay
+    daysold = Math.floor(e_daysold);
+    e_hrsold = (e_daysold - daysold) * 24;
+    hrsold = setzero(Math.floor(e_hrsold));
+    e_minsold = (e_hrsold - hrsold) * 60;
+    minsold = setzero(Math.floor((e_hrsold - hrsold) * 60));
+    seconds = setzero(Math.floor((e_minsold - minsold) * 60));
+    document.getElementById('days').innerHTML = "本站已运行" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+  }
+
+  function setzero(i) {
+    if (i < 10) {
+      i = "0" + i
+    };
     return i;
-}
-show_date_time();
+  }
+  show_date_time();
 </script>
     <div class="to_top">
      <div class="totop" id="totop">
