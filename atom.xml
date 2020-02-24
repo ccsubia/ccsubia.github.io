@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="47.107.246.83/"/>
-  <updated>2020-02-05T05:17:33.184Z</updated>
+  <updated>2020-02-24T05:22:45.060Z</updated>
   <id>47.107.246.83/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 服务器部署命令</title>
+    <link href="47.107.246.83/2020/02/24/Hexo-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/"/>
+    <id>47.107.246.83/2020/02/24/Hexo-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</id>
+    <published>2020-02-24T05:22:33.000Z</published>
+    <updated>2020-02-24T05:22:45.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;hexo generate &amp;amp;&amp;amp; hexo
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>每日一言</title>
@@ -127,6 +150,32 @@
       <category term="ICARUS" scheme="47.107.246.83/tags/ICARUS/"/>
     
       <category term="纠错" scheme="47.107.246.83/tags/%E7%BA%A0%E9%94%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git代理设置</title>
+    <link href="47.107.246.83/2020/01/29/gitproxy/"/>
+    <id>47.107.246.83/2020/01/29/gitproxy/</id>
+    <published>2020-01-29T12:05:00.000Z</published>
+    <updated>2020-02-24T05:20:35.199Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/gitproxy/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/gitproxy/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-前期准备&quot;&gt;&lt;a href=&quot;#1-前期准备&quot; class=&quot;headerlink&quot; title=&quot;1. 前期准备&quot;&gt;&lt;/a&gt;1. 前期准备&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;代理服务器&lt;/li&gt;
+&lt;li&gt;代理软件
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="47.107.246.83/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Git" scheme="47.107.246.83/tags/Git/"/>
+    
+      <category term="代理" scheme="47.107.246.83/tags/%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
