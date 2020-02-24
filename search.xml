@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 服务器部署命令</title>
-    <url>/2020/02/24/Hexo-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><code>hexo generate &amp;&amp; hexo deploy</code></p>
-]]></content>
-  </entry>
-  <entry>
     <title>每日一言</title>
     <url>/2020/02/04/word_day/</url>
     <content><![CDATA[<script src="https://unpkg.com/axios/dist/axios.min.js">
