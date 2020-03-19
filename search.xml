@@ -123,31 +123,6 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
       </tags>
   </entry>
   <entry>
-    <title>通过开源项目免费申请JetBrains产品激活码</title>
-    <url>/2020/01/22/jetbrains/</url>
-    <content><![CDATA[<p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/22/jetbrains/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/22/jetbrains/</a></p>
-<p>转载自：<a href="http://www.hellohao.cn/?p=1111316" target="_blank" rel="noopener">Hellohao博客</a></p>
-<p><img src="http://cdn.wwery.com/Hellohao/287d81128020741.png" alt="ideabanner.png"></p>
-<p>说到JetBrains，我们使用最多的就是IDEA和webstorm了吧，今天博主就给分享一下如何通过自己的开源项目免费申请正版激活码。<a id="more"></a></p>
-<h4 id="申请前操作"><a href="#申请前操作" class="headerlink" title="申请前操作"></a>申请前操作</h4><ul>
-<li>首先需要有自己的开源项目</li>
-<li>将自己的Github的邮箱设置为公开（如下图）</li>
-</ul>
-<p><img src="http://cdn.wwery.com/Hellohao/90bf71128021006.png" alt="emailsettimg.png"></p>
-<h4 id="申请激活码"><a href="#申请激活码" class="headerlink" title="申请激活码"></a>申请激活码</h4><p><strong>申请地址:</strong><a href="https://www.jetbrains.com/shop/eform/opensource" target="_blank" rel="noopener" title="https://www.jetbrains.com/shop/eform/opensource">https://www.jetbrains.com/shop/eform/opensource</a><br>打开以上申请地址，然后按要求填写即可：<br>这里需要注意的是：申请的邮箱必须和你Github的主邮箱要保持一致。否则不能通过。<br><img src="http://cdn.wwery.com/Hellohao/1fdec1128021312.png" alt="sqjt.png"></p>
-<p>申请完成之后会有如下提示：<br><img src="http://cdn.wwery.com/Hellohao/ade131128021504.png" alt="申请成功.png"></p>
-<p>然后，就需要我们等一两天，等待官方审核通过后就会给我们回复邮件告诉我们如何领取激活码。<br><img src="http://cdn.wwery.com/Hellohao/1a6cb1128022020.png" alt="邮件内容.png"></p>
-<p>激活码有效期是一年的，但是可以无限申请，意思就是只要你开源项目保持更新提交，那么快到期的时候再次申请即可。</p>
-]]></content>
-      <categories>
-        <category>转载</category>
-      </categories>
-      <tags>
-        <tag>JetBrains</tag>
-        <tag>开发工具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>哔哩哔哩(bilibili)视频下载-支持4K</title>
     <url>/2020/01/20/bilibili/</url>
     <content><![CDATA[<p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/20/bilibili/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/20/bilibili/</a></p>
