@@ -23,7 +23,7 @@ function get_story(date, i) {
         })
         .then(
             function (response) {
-                console.log(response.data);
+                // console.log(response.data);
                 // var span = document.createElement('span')
                 // span.innerText = response.data.data.author;
                 // console.log(span)
