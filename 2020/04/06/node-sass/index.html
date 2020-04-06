@@ -14,26 +14,30 @@
     
     
     
-    <title>ICARUS主题更换问题 | BIA</title>
+    <title>Vue项目升级node.js版本node-sass兼容问题 | BIA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="ICARUS,博客主题">
-    <meta name="description" content="本文链接地址： https:&#x2F;&#x2F;ccsubia.github.io&#x2F;2020&#x2F;01&#x2F;29&#x2F;icaruserror&#x2F; 发现错误 下载更换ICARUS主题后，重新执行hexo serve命令，发现报错如下12ERROR Package cheerio is not installed.  ERROR Please install the missing dependencies from the ro">
+    <meta name="keywords" content="node.js,node-sass">
+    <meta name="description" content="问题解决 npm i node-sass -D or npm install node-sass -save-dev，二者等效  问题产生 原先做一个Vue项目使用的node.js版本是6.11.3，而后Hexo博客需要的node.js的版本是10+，于是更新node.js版本到了10.16.0 再次启动Vue项目，那么问题就来了123Module build failed: Error: Nod">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ICARUS主题更换问题">
-<meta property="og:url" content="zenithofyou.top/2020/01/29/icaruserror/index.html">
+<meta property="og:title" content="Vue项目升级node.js版本node-sass兼容问题">
+<meta property="og:url" content="zenithofyou.top/2020/04/06/node-sass/index.html">
 <meta property="og:site_name" content="BIA">
-<meta property="og:description" content="本文链接地址： https:&#x2F;&#x2F;ccsubia.github.io&#x2F;2020&#x2F;01&#x2F;29&#x2F;icaruserror&#x2F; 发现错误 下载更换ICARUS主题后，重新执行hexo serve命令，发现报错如下12ERROR Package cheerio is not installed.  ERROR Please install the missing dependencies from the ro">
+<meta property="og:description" content="问题解决 npm i node-sass -D or npm install node-sass -save-dev，二者等效  问题产生 原先做一个Vue项目使用的node.js版本是6.11.3，而后Hexo博客需要的node.js的版本是10+，于是更新node.js版本到了10.16.0 再次启动Vue项目，那么问题就来了123Module build failed: Error: Nod">
 <meta property="og:locale" content="zh">
-<meta property="article:published_time" content="2020-01-29T13:29:00.000Z">
-<meta property="article:modified_time" content="2020-04-06T10:58:17.609Z">
+<meta property="og:image" content="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/06/s2RISFOXixc8hH1.png">
+<meta property="og:image" content="https://i.loli.net/2020/04/06/Azn7DtlSuc3JiNj.png">
+<meta property="article:published_time" content="2020-04-06T10:13:00.000Z">
+<meta property="article:modified_time" content="2020-04-06T10:57:02.404Z">
 <meta property="article:author" content="HU">
-<meta property="article:tag" content="ICARUS">
-<meta property="article:tag" content="博客主题">
+<meta property="article:tag" content="node.js">
+<meta property="article:tag" content="node-sass">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png">
     
         <link rel="alternate" type="application/atom+xml" title="BIA" href="/atom.xml">
     
@@ -128,7 +132,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">ICARUS主题更换问题</div>
+        <div class="flex-col header-title ellipsis">Vue项目升级node.js版本node-sass兼容问题</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -150,11 +154,11 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">ICARUS主题更换问题</h1>
+        <h1 class="title">Vue项目升级node.js版本node-sass兼容问题</h1>
         <h5 class="subtitle">
             
-                <time datetime="2020-01-29T13:29:00.000Z" itemprop="datePublished" class="page-time">
-  2020-01-29
+                <time datetime="2020-04-06T10:13:00.000Z" itemprop="datePublished" class="page-time">
+  2020-04-06
 </time>
 
 
@@ -175,18 +179,18 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#发现错误"><span class="post-toc-number">1.</span> <span class="post-toc-text">发现错误</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#解决问题"><span class="post-toc-number">2.</span> <span class="post-toc-text">解决问题</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#问题解决"><span class="post-toc-number">1.</span> <span class="post-toc-text">问题解决</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#问题产生"><span class="post-toc-number">2.</span> <span class="post-toc-text">问题产生</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#问题分析"><span class="post-toc-number">3.</span> <span class="post-toc-text">问题分析</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#问题解决的引申"><span class="post-toc-number">4.</span> <span class="post-toc-text">问题解决的引申</span></a></li></ol>
         </nav>
     </aside>
 
 
-<article id="post-icaruserror"
+<article id="post-node-sass"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">ICARUS主题更换问题</h1>
+        <h1 class="post-card-title">Vue项目升级node.js版本node-sass兼容问题</h1>
         <div class="post-meta">
-            <time class="post-time" title="2020-01-29 21:29:00" datetime="2020-01-29T13:29:00.000Z"  itemprop="datePublished">2020-01-29</time>
+            <time class="post-time" title="2020-04-06 18:13:00" datetime="2020-04-06T10:13:00.000Z"  itemprop="datePublished">2020-04-06</time>
 
             
 	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/%E7%BA%A0%E9%94%99/">纠错</a></li></ul>
@@ -201,21 +205,46 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/29/icaruserror/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/29/icaruserror/</a></p>
-<h3 id="发现错误"><a href="#发现错误" class="headerlink" title="发现错误"></a>发现错误</h3><ul>
-<li>下载更换ICARUS主题后，重新执行<code>hexo serve</code>命令，发现报错如下<figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ERROR </span>Package cheerio is not installed.  </span><br><span class="line"><span class="keyword">ERROR </span>Please install the missing dependencies from the root directory of your Hexo site.</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
+            <h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><blockquote>
+<p><code>npm i node-sass -D</code> or <code>npm install node-sass -save-dev</code>，二者等效</p>
+</blockquote>
+<h3 id="问题产生"><a href="#问题产生" class="headerlink" title="问题产生"></a>问题产生</h3><ul>
+<li>原先做一个Vue项目使用的node.js版本是6.11.3，而后Hexo博客需要的node.js的版本是10+，于是更新node.js版本到了10.16.0</li>
+<li>再次启动Vue项目，那么问题就来了<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Module build failed: Error: <span class="keyword">Node</span> <span class="title">Sass</span> does not yet support your</span><br><span class="line">current environment: Windows </span><br><span class="line"><span class="number">64</span>-bit with Unsupported runtime (<span class="number">64</span>)</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
-<h3 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题"></a>解决问题</h3><ul>
-<li><p>原因是缺少<code>cheerio</code>依赖，进入<code>blog-hexo</code>目录，执行<code>npm i cheerio -S</code>命令进行安装即可，<code>-S</code>指安装并将其保存到当前项目的配置中，下次就会统一安装了。</p>
-</li>
-<li><p>重新执行<code>hexo serve</code>命令，发现如下信息</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">INFO</span>  Checking dependencies  </span><br><span class="line"><span class="builtin-name">INFO</span>  Validating the configuration file  </span><br><span class="line">WARN  themes/icarus/\_config.yml is <span class="keyword">not</span> found. We are creating one <span class="keyword">for</span> you<span class="built_in">..</span>.  </span><br><span class="line"><span class="builtin-name">INFO</span>  themes/icarus/\_config.yml is created. Please restart Hexo <span class="keyword">to</span> apply changes.</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>提示缺少<code>themes/icarus/_config.yml</code>文件，已经帮助我们生成，再次运行即可正常启动。</p>
-</li>
+<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><ul>
+<li>从node.js官网<a href="https://nodejs.org/zh-cn/download/releases/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/releases/</a><br>可以查询到版本信息<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png" alt="node.js版本信息" title="">
+                </div>
+                <div class="image-caption">node.js版本信息</div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/s2RISFOXixc8hH1.png" alt="node.js版本信息" title="">
+                </div>
+                <div class="image-caption">node.js版本信息</div>
+            </figure>
+到10的版本NODE_MODULE_VERSION变成了64</li>
+<li>从node-sass的GitHub项目地址可以查询到node-sass的版本信息<br><a href="https://github.com/sass/node-sass/releases/tag/v4.7.2" target="_blank" rel="noopener">https://github.com/sass/node-sass/releases/tag/v4.7.2</a><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/Azn7DtlSuc3JiNj.png" alt="node-sass版本信息" title="">
+                </div>
+                <div class="image-caption">node-sass版本信息</div>
+            </figure>
+显然，这就是不兼容的原因</li>
+</ul>
+<h3 id="问题解决的引申"><a href="#问题解决的引申" class="headerlink" title="问题解决的引申"></a>问题解决的引申</h3><ul>
+<li>npm install xxx –save -dev 的xxx组件依赖，会保存到package.json中的devDependencies对象下。</li>
+<li>npm install xxx –save 的xxx组件依赖，会保存到package.json中的dependencies对象下。</li>
+<li>当你在npm install 时，会自动加载devDependencies对象和dependencies对象下依赖。</li>
+<li>当你在npm install packagename时，会自动加载dependencies对象下依赖。</li>
+<li>当你在npm install packagename -dev时，会自动加载devDependencies对象下依赖。</li>
 </ul>
 
         </div>
@@ -226,7 +255,7 @@
         
 
         
-        感谢你的访问，转载请注明本页地址：<a href="/2020/01/29/icaruserror/" target="_blank" rel="external">zenithofyou.top/2020/01/29/icaruserror/</a>
+        感谢你的访问，转载请注明本页地址：<a href="/2020/04/06/node-sass/" target="_blank" rel="external">zenithofyou.top/2020/04/06/node-sass/</a>
         
     </div>
     
@@ -247,7 +276,7 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ICARUS/" rel="tag">ICARUS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98/" rel="tag">博客主题</a></li></ul>
+	<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-sass/" rel="tag">node-sass</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/node-js/" rel="tag">node.js</a></li></ul>
 
 
             
@@ -257,7 +286,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=zenithofyou.top/2020/01/29/icaruserror/&title=《ICARUS主题更换问题》 — BIA&pic=zenithofyou.top/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=zenithofyou.top/2020/04/06/node-sass/&title=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&pic=zenithofyou.top/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -267,24 +296,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=zenithofyou.top/2020/01/29/icaruserror/&title=《ICARUS主题更换问题》 — BIA&source=本文链接地址： https://ccsubia.github.io/2020/01/29/icaruserror/
-发现错误
-下载更换ICARUS主题后，..." data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=zenithofyou.top/2020/04/06/node-sass/&title=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=zenithofyou.top/2020/01/29/icaruserror/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=zenithofyou.top/2020/04/06/node-sass/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《ICARUS主题更换问题》 — BIA&url=zenithofyou.top/2020/01/29/icaruserror/&via=zenithofyou.top" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&url=zenithofyou.top/2020/04/06/node-sass/&via=zenithofyou.top" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=zenithofyou.top/2020/01/29/icaruserror/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=zenithofyou.top/2020/04/06/node-sass/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -304,21 +331,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/2020/02/01/bingpaper/" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">Bing每日壁纸（每日更新）</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2020/01/29/gitproxy/" id="post-next" class="post-nav-link">
+      <a href="/2020/02/26/IDEA/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Git代理设置</h4>
+        <h4 class="title">IDEA快捷键</h4>
       </a>
     </div>
   
@@ -442,7 +462,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=zenithofyou.top/2020/01/29/icaruserror/&title=《ICARUS主题更换问题》 — BIA&pic=zenithofyou.top/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=zenithofyou.top/2020/04/06/node-sass/&title=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&pic=zenithofyou.top/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -452,24 +472,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=zenithofyou.top/2020/01/29/icaruserror/&title=《ICARUS主题更换问题》 — BIA&source=本文链接地址： https://ccsubia.github.io/2020/01/29/icaruserror/
-发现错误
-下载更换ICARUS主题后，..." data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=zenithofyou.top/2020/04/06/node-sass/&title=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=zenithofyou.top/2020/01/29/icaruserror/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=zenithofyou.top/2020/04/06/node-sass/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《ICARUS主题更换问题》 — BIA&url=zenithofyou.top/2020/01/29/icaruserror/&via=zenithofyou.top" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Vue项目升级node.js版本node-sass兼容问题》 — BIA&url=zenithofyou.top/2020/04/06/node-sass/&via=zenithofyou.top" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=zenithofyou.top/2020/01/29/icaruserror/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=zenithofyou.top/2020/04/06/node-sass/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -480,7 +498,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=zenithofyou.top/2020/01/29/icaruserror/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=zenithofyou.top/2020/04/06/node-sass/" alt="微信分享二维码">
 </div>
 
 

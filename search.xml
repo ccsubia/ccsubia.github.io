@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Vue项目升级node.js版本node-sass兼容问题</title>
+    <url>/2020/04/06/node-sass/</url>
+    <content><![CDATA[<h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><blockquote>
+<p><code>npm i node-sass -D</code> or <code>npm install node-sass -save-dev</code>，二者等效</p>
+</blockquote>
+<h3 id="问题产生"><a href="#问题产生" class="headerlink" title="问题产生"></a>问题产生</h3><ul>
+<li>原先做一个Vue项目使用的node.js版本是6.11.3，而后Hexo博客需要的node.js的版本是10+，于是更新node.js版本到了10.16.0</li>
+<li>再次启动Vue项目，那么问题就来了<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Module build failed: Error: <span class="keyword">Node</span> <span class="title">Sass</span> does not yet support your</span><br><span class="line">current environment: Windows </span><br><span class="line"><span class="number">64</span>-bit with Unsupported runtime (<span class="number">64</span>)</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><ul>
+<li>从node.js官网<a href="https://nodejs.org/zh-cn/download/releases/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/releases/</a><br>可以查询到版本信息<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png" alt="node.js版本信息" title="">
+                </div>
+                <div class="image-caption">node.js版本信息</div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/s2RISFOXixc8hH1.png" alt="node.js版本信息" title="">
+                </div>
+                <div class="image-caption">node.js版本信息</div>
+            </figure>
+到10的版本NODE_MODULE_VERSION变成了64</li>
+<li>从node-sass的GitHub项目地址可以查询到node-sass的版本信息<br><a href="https://github.com/sass/node-sass/releases/tag/v4.7.2" target="_blank" rel="noopener">https://github.com/sass/node-sass/releases/tag/v4.7.2</a><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://i.loli.net/2020/04/06/Azn7DtlSuc3JiNj.png" alt="node-sass版本信息" title="">
+                </div>
+                <div class="image-caption">node-sass版本信息</div>
+            </figure>
+显然，这就是不兼容的原因</li>
+</ul>
+<h3 id="问题解决的引申"><a href="#问题解决的引申" class="headerlink" title="问题解决的引申"></a>问题解决的引申</h3><ul>
+<li>npm install xxx –save -dev 的xxx组件依赖，会保存到package.json中的devDependencies对象下。</li>
+<li>npm install xxx –save 的xxx组件依赖，会保存到package.json中的dependencies对象下。</li>
+<li>当你在npm install 时，会自动加载devDependencies对象和dependencies对象下依赖。</li>
+<li>当你在npm install packagename时，会自动加载dependencies对象下依赖。</li>
+<li>当你在npm install packagename -dev时，会自动加载devDependencies对象下依赖。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>纠错</category>
+      </categories>
+      <tags>
+        <tag>node.js</tag>
+        <tag>node-sass</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>IDEA快捷键</title>
     <url>/2020/02/26/IDEA/</url>
     <content><![CDATA[<p>Ctrl+Shift + Enter，语句完成<br>“！”，否定完成，输入表达式时按 “！”键<br>Ctrl+E，最近的文件<br>Ctrl+Shift+E，最近更改的文件<br>Shift+Click，可以关闭文件<br>Ctrl+[ OR ]，可以跑到大括号的开头与结尾<br>Ctrl+F12，可以显示当前文件的结构<br>Ctrl+F7，可以查询当前元素在当前文件中的引用，然后按 F3 可以选择<br>Ctrl+N，可以快速打开类<br>Ctrl+Shift+N，可以快速打开文件  </p>
@@ -72,12 +125,11 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
 </ul>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>纠错</category>
       </categories>
       <tags>
-        <tag>主题</tag>
         <tag>ICARUS</tag>
-        <tag>纠错</tag>
+        <tag>博客主题</tag>
       </tags>
   </entry>
   <entry>
