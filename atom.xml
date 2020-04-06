@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-06T10:57:02.404Z</updated>
+  <updated>2020-04-06T11:00:21.647Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="zenithofyou.top/2020/04/06/node-sass/"/>
     <id>zenithofyou.top/2020/04/06/node-sass/</id>
     <published>2020-04-06T10:13:00.000Z</published>
-    <updated>2020-04-06T10:57:02.404Z</updated>
+    <updated>2020-04-06T11:00:21.647Z</updated>
     
     <summary type="html">
     
@@ -43,6 +43,8 @@
       <category term="node.js" scheme="zenithofyou.top/tags/node-js/"/>
     
       <category term="node-sass" scheme="zenithofyou.top/tags/node-sass/"/>
+    
+      <category term="Vue" scheme="zenithofyou.top/tags/Vue/"/>
     
   </entry>
   
