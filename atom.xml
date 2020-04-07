@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-07T02:35:28.654Z</updated>
+  <updated>2020-04-07T10:48:27.515Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -17,11 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>快捷键合集（自常用整理）</title>
+    <link href="zenithofyou.top/2020/04/07/hotkey/"/>
+    <id>zenithofyou.top/2020/04/07/hotkey/</id>
+    <published>2020-04-07T10:14:00.000Z</published>
+    <updated>2020-04-07T10:48:27.515Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;鼠标是什么，能吃吗？
+    
+    </summary>
+    
+    
+      <category term="技巧" scheme="zenithofyou.top/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="快捷键" scheme="zenithofyou.top/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL的导出与导入</title>
+    <link href="zenithofyou.top/2020/04/07/mysqlOperating/"/>
+    <id>zenithofyou.top/2020/04/07/mysqlOperating/</id>
+    <published>2020-04-07T02:43:00.000Z</published>
+    <updated>2020-04-07T10:51:32.188Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;引出&quot;&gt;&lt;a href=&quot;#引出&quot; class=&quot;headerlink&quot; title=&quot;引出&quot;&gt;&lt;/a&gt;引出&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;开发环境中建好的数据库要投放到生成环境，或者交予他人开发，如何进行Mysql数据库的导出与导入？
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="zenithofyou.top/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="mysql" scheme="zenithofyou.top/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Vue项目升级node.js版本node-sass兼容问题</title>
     <link href="zenithofyou.top/2020/04/06/node-sass/"/>
     <id>zenithofyou.top/2020/04/06/node-sass/</id>
     <published>2020-04-06T10:13:00.000Z</published>
-    <updated>2020-04-07T02:35:28.654Z</updated>
+    <updated>2020-04-07T10:50:08.065Z</updated>
     
     <summary type="html">
     
@@ -37,8 +80,6 @@
     
       <category term="node.js" scheme="zenithofyou.top/tags/node-js/"/>
     
-      <category term="node-sass" scheme="zenithofyou.top/tags/node-sass/"/>
-    
       <category term="Vue" scheme="zenithofyou.top/tags/Vue/"/>
     
   </entry>
@@ -48,7 +89,7 @@
     <link href="zenithofyou.top/2020/02/26/IDEA/"/>
     <id>zenithofyou.top/2020/02/26/IDEA/</id>
     <published>2020-02-26T10:47:00.000Z</published>
-    <updated>2020-04-07T02:36:55.071Z</updated>
+    <updated>2020-04-07T10:48:57.719Z</updated>
     
     <summary type="html">
     
@@ -57,7 +98,7 @@
     </summary>
     
     
-      <category term="记录" scheme="zenithofyou.top/categories/%E8%AE%B0%E5%BD%95/"/>
+      <category term="技巧" scheme="zenithofyou.top/categories/%E6%8A%80%E5%B7%A7/"/>
     
     
       <category term="IDEA" scheme="zenithofyou.top/tags/IDEA/"/>
@@ -122,14 +163,14 @@
     <link href="zenithofyou.top/2020/01/29/icaruserror/"/>
     <id>zenithofyou.top/2020/01/29/icaruserror/</id>
     <published>2020-01-29T13:29:00.000Z</published>
-    <updated>2020-04-07T02:33:39.076Z</updated>
+    <updated>2020-04-07T10:52:12.648Z</updated>
     
     <summary type="html">
     
       &lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/29/icaruserror/](https://ccsubia.github.io/2020/01/29/icaruserror/) --&gt;
 
 &lt;h3 id=&quot;发现错误&quot;&gt;&lt;a href=&quot;#发现错误&quot; class=&quot;headerlink&quot; title=&quot;发现错误&quot;&gt;&lt;/a&gt;发现错误&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;下载更换ICARUS主题后，重新执行&lt;code&gt;hexo serve&lt;/code&gt;命令，发现报错如下&lt;figure class=&quot;highlight subunit&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Package cheerio is not installed.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Please install the missing dependencies from the root directory of your Hexo site.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;li&gt;下载更换ICARUS主题后，重新执行&lt;code&gt;hexo serve&lt;/code&gt;命令，发现报错
     
     </summary>
     
