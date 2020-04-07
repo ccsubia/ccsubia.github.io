@@ -6,6 +6,7 @@
     <content><![CDATA[<h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><blockquote>
 <p><code>npm i node-sass -D</code> or <code>npm install node-sass -save-dev</code>，二者等效</p>
 </blockquote>
+<a id="more"></a>
 <h3 id="问题产生"><a href="#问题产生" class="headerlink" title="问题产生"></a>问题产生</h3><ul>
 <li>原先做一个Vue项目使用的node.js版本是6.11.3，而后Hexo博客需要的node.js的版本是10+，于是更新node.js版本到了10.16.0</li>
 <li>再次启动Vue项目，那么问题就来了<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">Module build failed: Error: <span class="keyword">Node</span> <span class="title">Sass</span> does not yet support your</span><br><span class="line">current environment: Windows </span><br><span class="line"><span class="number">64</span>-bit with Unsupported runtime (<span class="number">64</span>)</span><br></pre></td></tr></table></figure>
@@ -57,11 +58,18 @@
   <entry>
     <title>IDEA快捷键</title>
     <url>/2020/02/26/IDEA/</url>
-    <content><![CDATA[<p>Ctrl+Shift + Enter，语句完成<br>“！”，否定完成，输入表达式时按 “！”键<br>Ctrl+E，最近的文件<br>Ctrl+Shift+E，最近更改的文件<br>Shift+Click，可以关闭文件<br>Ctrl+[ OR ]，可以跑到大括号的开头与结尾<br>Ctrl+F12，可以显示当前文件的结构<br>Ctrl+F7，可以查询当前元素在当前文件中的引用，然后按 F3 可以选择<br>Ctrl+N，可以快速打开类<br>Ctrl+Shift+N，可以快速打开文件  </p>
-<a id="more"></a>
-<p>Alt+Q，可以看到当前方法的声明<br>Ctrl+P，可以显示参数信息<br>Ctrl+Shift+Insert，可以选择剪贴板内容并插入<br>Alt+Insert，可以生成构造器/Getter/Setter等<br>Ctrl+Alt+V，可以引入变量。例如：new String(); 自动导入变量定义<br>Ctrl+Alt+T，可以把代码包在一个块内，例如：try/catch<br>Ctrl+Enter，导入包，自动修正<br>Ctrl+Alt+L，格式化代码<br>Ctrl+Alt+I，将选中的代码进行自动缩进编排，这个功能在编辑 JSP 文件时也可以工作<br>Ctrl+Alt+O，优化导入的类和包<br>Ctrl+R，替换文本<br>Ctrl+F，查找文本<br>Ctrl+Shift+Space，自动补全代码<br>Ctrl+空格，代码提示（与系统输入法快捷键冲突）<br>Ctrl+Shift+Alt+N，查找类中的方法或变量<br>Alt+Shift+C，最近的更改<br>Alt+Shift+Up/Down，上/下移一行<br>Shift+F6，重构 – 重命名<br>Ctrl+X，删除行<br>Ctrl+D，复制行<br>Ctrl+/或Ctrl+Shift+/，注释（//或者/**/）<br>Ctrl+J，自动代码（例如：serr）<br>Ctrl+Alt+J，用动态模板环绕<br>Ctrl+H，显示类结构图（类的继承层次）<br>Ctrl+Q，显示注释文档<br>Alt+F1，查找代码所在位置<br>Alt+1，快速打开或隐藏工程面板<br>Ctrl+Alt+left/right，返回至上次浏览的位置<br>Alt+left/right，切换代码视图<br>Alt+Up/Down，在方法间快速移动定位<br>Ctrl+Shift+Up/Down，向上/下移动语句<br>F2 或 Shift+F2，高亮错误或警告快速定位<br>Tab，代码标签输入完成后，按 Tab，生成代码<br>Ctrl+Shift+F7，高亮显示所有该文本，按 Esc 高亮消失<br>Alt+F3，逐个往下查找相同文本，并高亮显示<br>Ctrl+Up/Down，光标中转到第一行或最后一行下<br>Ctrl+B/Ctrl+Click，快速打开光标处的类或方法（跳转到定义处）<br>Ctrl+Alt+B，跳转到方法实现处<br>Ctrl+Shift+Backspace，跳转到上次编辑的地方<br>Ctrl+O，重写方法<br>Ctrl+Alt+Space，类名自动完成<br>Ctrl+Alt+Up/Down，快速跳转搜索结果<br>Ctrl+Shift+J，整合两行<br>Alt+F8，计算变量值<br>Ctrl+Shift+V，可以将最近使用的剪贴板内容选择插入到文本<br>Ctrl+Alt+Shift+V，简单粘贴<br>Shift+Esc，不仅可以把焦点移到编辑器上，而且还可以隐藏当前（或最后活动的）工具窗口<br>F12，把焦点从编辑器移到最近使用的工具窗口<br>Shift+F1，要打开编辑器光标字符处使用的类或者方法 Java 文档的浏览器<br>Ctrl+W，可以选择单词继而语句继而行继而函数<br>Ctrl+Shift+W，取消选择光标所在词<br>Alt+F7，查找整个工程中使用地某一个类、方法或者变量的位置<br>Ctrl+I，实现方法<br>Ctrl+Shift+U，大小写转化<br>Ctrl+Y，删除当前行</p>
+    <content><![CDATA[<h3 id="IDEA-快捷键汇总"><a href="#IDEA-快捷键汇总" class="headerlink" title="IDEA 快捷键汇总"></a>IDEA 快捷键汇总</h3><a id="more"></a>
+
+<p>Ctrl+Shift + Enter，语句完成<br>“！”，否定完成，输入表达式时按 “！”键<br>Ctrl+E，最近的文件<br>Ctrl+Shift+E，最近更改的文件<br>Shift+Click，可以关闭文件<br>Ctrl+[ OR ]，可以跑到大括号的开头与结尾<br>Ctrl+F12，可以显示当前文件的结构<br>Ctrl+F7，可以查询当前元素在当前文件中的引用，然后按 F3 可以选择<br>Ctrl+N，可以快速打开类<br>Ctrl+Shift+N，可以快速打开文件<br>Alt+Q，可以看到当前方法的声明<br>Ctrl+P，可以显示参数信息<br>Ctrl+Shift+Insert，可以选择剪贴板内容并插入<br>Alt+Insert，可以生成构造器/Getter/Setter等<br>Ctrl+Alt+V，可以引入变量。例如：new String(); 自动导入变量定义<br>Ctrl+Alt+T，可以把代码包在一个块内，例如：try/catch<br>Ctrl+Enter，导入包，自动修正<br>Ctrl+Alt+L，格式化代码<br>Ctrl+Alt+I，将选中的代码进行自动缩进编排，这个功能在编辑 JSP 文件时也可以工作<br>Ctrl+Alt+O，优化导入的类和包<br>Ctrl+R，替换文本<br>Ctrl+F，查找文本<br>Ctrl+Shift+Space，自动补全代码<br>Ctrl+空格，代码提示（与系统输入法快捷键冲突）<br>Ctrl+Shift+Alt+N，查找类中的方法或变量<br>Alt+Shift+C，最近的更改<br>Alt+Shift+Up/Down，上/下移一行<br>Shift+F6，重构 – 重命名<br>Ctrl+X，删除行<br>Ctrl+D，复制行<br>Ctrl+/或Ctrl+Shift+/，注释（//或者/**/）<br>Ctrl+J，自动代码（例如：serr）<br>Ctrl+Alt+J，用动态模板环绕<br>Ctrl+H，显示类结构图（类的继承层次）<br>Ctrl+Q，显示注释文档<br>Alt+F1，查找代码所在位置<br>Alt+1，快速打开或隐藏工程面板<br>Ctrl+Alt+left/right，返回至上次浏览的位置<br>Alt+left/right，切换代码视图<br>Alt+Up/Down，在方法间快速移动定位<br>Ctrl+Shift+Up/Down，向上/下移动语句<br>F2 或 Shift+F2，高亮错误或警告快速定位<br>Tab，代码标签输入完成后，按 Tab，生成代码<br>Ctrl+Shift+F7，高亮显示所有该文本，按 Esc 高亮消失<br>Alt+F3，逐个往下查找相同文本，并高亮显示<br>Ctrl+Up/Down，光标中转到第一行或最后一行下<br>Ctrl+B/Ctrl+Click，快速打开光标处的类或方法（跳转到定义处）<br>Ctrl+Alt+B，跳转到方法实现处<br>Ctrl+Shift+Backspace，跳转到上次编辑的地方<br>Ctrl+O，重写方法<br>Ctrl+Alt+Space，类名自动完成<br>Ctrl+Alt+Up/Down，快速跳转搜索结果<br>Ctrl+Shift+J，整合两行<br>Alt+F8，计算变量值<br>Ctrl+Shift+V，可以将最近使用的剪贴板内容选择插入到文本<br>Ctrl+Alt+Shift+V，简单粘贴<br>Shift+Esc，不仅可以把焦点移到编辑器上，而且还可以隐藏当前（或最后活动的）工具窗口<br>F12，把焦点从编辑器移到最近使用的工具窗口<br>Shift+F1，要打开编辑器光标字符处使用的类或者方法 Java 文档的浏览器<br>Ctrl+W，可以选择单词继而语句继而行继而函数<br>Ctrl+Shift+W，取消选择光标所在词<br>Alt+F7，查找整个工程中使用地某一个类、方法或者变量的位置<br>Ctrl+I，实现方法<br>Ctrl+Shift+U，大小写转化<br>Ctrl+Y，删除当前行</p>
 <p>Shift+Enter，向下插入新行<br>psvm/sout，main/System.out.println(); Ctrl+J，查看更多<br>Ctrl+Shift+F，全局查找<br>Ctrl+F，查找/Shift+F3，向上查找/F3，向下查找<br>Ctrl+Shift+S，高级搜索<br>Ctrl+U，转到父类<br>Ctrl+Alt+S，打开设置对话框<br>Alt+Shift+Inert，开启/关闭列选择模式<br>Ctrl+Alt+Shift+S，打开当前项目/模块属性<br>Ctrl+G，定位行<br>Alt+Home，跳转到导航栏<br>Ctrl+Enter，上插一行<br>Ctrl+Backspace，按单词删除<br>Ctrl+”+/-”，当前方法展开、折叠<br>Ctrl+Shift+”+/-”，全部展开、折叠<br>【调试部分、编译】<br>Ctrl+F2，停止<br>Alt+Shift+F9，选择 Debug<br>Alt+Shift+F10，选择 Run<br>Ctrl+Shift+F9，编译<br>Ctrl+Shift+F10，运行<br>Ctrl+Shift+F8，查看断点<br>F8，步过<br>F7，步入<br>Shift+F7，智能步入<br>Shift+F8，步出<br>Alt+Shift+F8，强制步过<br>Alt+Shift+F7，强制步入<br>Alt+F9，运行至光标处<br>Ctrl+Alt+F9，强制运行至光标处<br>F9，恢复程序<br>Alt+F10，定位到断点<br>Ctrl+F8，切换行断点<br>Ctrl+F9，生成项目<br>Alt+1，项目<br>Alt+2，收藏<br>Alt+6，TODO<br>Alt+7，结构<br>Ctrl+Shift+C，复制路径<br>Ctrl+Alt+Shift+C，复制引用，必须选择类名<br>Ctrl+Alt+Y，同步<br>Ctrl+~，快速切换方案（界面外观、代码风格、快捷键映射等菜单）<br>Shift+F12，还原默认布局<br>Ctrl+Shift+F12，隐藏/恢复所有窗口<br>Ctrl+F4，关闭<br>Ctrl+Shift+F4，关闭活动选项卡<br>Ctrl+Tab，转到下一个拆分器<br>Ctrl+Shift+Tab，转到上一个拆分器<br>【重构】<br>Ctrl+Alt+Shift+T，弹出重构菜单<br>Shift+F6，重命名<br>F6，移动<br>F5，复制<br>Alt+Delete，安全删除<br>Ctrl+Alt+N，内联<br>【查找】<br>Ctrl+F，查找<br>Ctrl+R，替换<br>F3，查找下一个<br>Shift+F3，查找上一个<br>Ctrl+Shift+F，在路径中查找<br>Ctrl+Shift+R，在路径中替换<br>Ctrl+Shift+S，搜索结构<br>Ctrl+Shift+M，替换结构<br>Alt+F7，查找用法<br>Ctrl+Alt+F7，显示用法<br>Ctrl+F7，在文件中查找用法<br>Ctrl+Shift+F7，在文件中高亮显示用法</p>
 ]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>IDEA</tag>
+        <tag>快捷键</tag>
+      </tags>
   </entry>
   <entry>
     <title>每日一言</title>
@@ -90,7 +98,8 @@
   <entry>
     <title>Bing每日壁纸（每日更新）</title>
     <url>/2020/02/01/bingpaper/</url>
-    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span class = "date" id = "date"></span></h2><p><img src = "" id = "picshow" 
+    <content><![CDATA[<h2 id="Bing壁纸-每日更新"><a href="#Bing壁纸-每日更新" class="headerlink" title="Bing壁纸(每日更新)  "></a>Bing壁纸(每日更新)  <span class = "date" id = "date"></span></h2><a id="more"></a>
+<p><img src = "" id = "picshow" 
 onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';this.οnerrοr=null"></p>
 <p><a href="javascript:void(0)" style = "width:50%;text-decoration: none;" onclick = beforeday()>&lt; 前一天</a><a href="javascript:void(0)" style = "float:right;text-decoration: none;" onclick = nextday()>后一天 &gt;</a></p>
 <blockquote>
@@ -108,7 +117,8 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
   <entry>
     <title>ICARUS主题更换问题</title>
     <url>/2020/01/29/icaruserror/</url>
-    <content><![CDATA[<p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/29/icaruserror/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/29/icaruserror/</a></p>
+    <content><![CDATA[<!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/29/icaruserror/](https://ccsubia.github.io/2020/01/29/icaruserror/) -->
+
 <h3 id="发现错误"><a href="#发现错误" class="headerlink" title="发现错误"></a>发现错误</h3><ul>
 <li>下载更换ICARUS主题后，重新执行<code>hexo serve</code>命令，发现报错如下<figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">ERROR </span>Package cheerio is not installed.  </span><br><span class="line"><span class="keyword">ERROR </span>Please install the missing dependencies from the root directory of your Hexo site.</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -136,7 +146,7 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
   <entry>
     <title>Git代理设置</title>
     <url>/2020/01/29/gitproxy/</url>
-    <content><![CDATA[<p><em>本文链接地址：</em> <a href="./2020/01/29/gitproxy/">https://ccsubia.github.io/2020/01/29/gitproxy/</a></p>
+    <content><![CDATA[<!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/29/gitproxy/](./2020/01/29/gitproxy/) -->
 <h3 id="1-前期准备"><a href="#1-前期准备" class="headerlink" title="1. 前期准备"></a>1. 前期准备</h3><ul>
 <li>代理服务器</li>
 <li>代理软件<a id="more"></a>
@@ -189,7 +199,7 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
   <entry>
     <title>哔哩哔哩(bilibili)视频下载-支持4K</title>
     <url>/2020/01/20/bilibili/</url>
-    <content><![CDATA[<p><em>本文链接地址：</em> <a href="https://ccsubia.github.io/2020/01/20/bilibili/" target="_blank" rel="noopener">https://ccsubia.github.io/2020/01/20/bilibili/</a></p>
+    <content><![CDATA[<!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/20/bilibili/](https://ccsubia.github.io/2020/01/20/bilibili/) -->
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯</p>
 <h3 id="准备阶段–安装著名的下载器IDM"><a href="#准备阶段–安装著名的下载器IDM" class="headerlink" title="准备阶段–安装著名的下载器IDM"></a>准备阶段–安装著名的下载器IDM</h3><p>  下载链接: <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">官方链接</a>  <a href="https://hu.zenith.workers.dev/IDM%206.36.2/" target="_blank" rel="noopener">个人云盘链接</a></p>
 <p>  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）<a id="more"></a></p>

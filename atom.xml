@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-06T11:00:21.647Z</updated>
+  <updated>2020-04-07T02:35:28.654Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -21,18 +21,13 @@
     <link href="zenithofyou.top/2020/04/06/node-sass/"/>
     <id>zenithofyou.top/2020/04/06/node-sass/</id>
     <published>2020-04-06T10:13:00.000Z</published>
-    <updated>2020-04-06T11:00:21.647Z</updated>
+    <updated>2020-04-07T02:35:28.654Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;问题解决&quot;&gt;&lt;a href=&quot;#问题解决&quot; class=&quot;headerlink&quot; title=&quot;问题解决&quot;&gt;&lt;/a&gt;问题解决&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;npm i node-sass -D&lt;/code&gt; or &lt;code&gt;npm
-        
-      
+      &lt;h3 id=&quot;问题解决&quot;&gt;&lt;a href=&quot;#问题解决&quot; class=&quot;headerlink&quot; title=&quot;问题解决&quot;&gt;&lt;/a&gt;问题解决&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;npm i node-sass -D&lt;/code&gt; or &lt;code&gt;npm install node-sass -save-dev&lt;/code&gt;，二者等效&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
@@ -52,16 +47,22 @@
     <title>IDEA快捷键</title>
     <link href="zenithofyou.top/2020/02/26/IDEA/"/>
     <id>zenithofyou.top/2020/02/26/IDEA/</id>
-    <published>2020-02-26T10:47:06.000Z</published>
-    <updated>2020-03-20T03:38:13.405Z</updated>
+    <published>2020-02-26T10:47:00.000Z</published>
+    <updated>2020-04-07T02:36:55.071Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Ctrl+Shift + Enter，语句完成&lt;br&gt;“！”，否定完成，输入表达式时按 “！”键&lt;br&gt;Ctrl+E，最近的文件&lt;br&gt;Ctrl+Shift+E，最近更改的文件&lt;br&gt;Shift+Click，可以关闭文件&lt;br&gt;Ctrl+[ OR ]，可以跑到大括号的开头与结尾&lt;br&gt;Ctrl+F12，可以显示当前文件的结构&lt;br&gt;Ctrl+F7，可以查询当前元素在当前文件中的引用，然后按 F3 可以选择&lt;br&gt;Ctrl+N，可以快速打开类&lt;br&gt;Ctrl+Shift+N，可以快速打开文件  &lt;/p&gt;
+      &lt;h3 id=&quot;IDEA-快捷键汇总&quot;&gt;&lt;a href=&quot;#IDEA-快捷键汇总&quot; class=&quot;headerlink&quot; title=&quot;IDEA 快捷键汇总&quot;&gt;&lt;/a&gt;IDEA 快捷键汇总&lt;/h3&gt;
     
     </summary>
     
     
+      <category term="记录" scheme="zenithofyou.top/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="IDEA" scheme="zenithofyou.top/tags/IDEA/"/>
+    
+      <category term="快捷键" scheme="zenithofyou.top/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -98,17 +99,11 @@
     <link href="zenithofyou.top/2020/02/01/bingpaper/"/>
     <id>zenithofyou.top/2020/02/01/bingpaper/</id>
     <published>2020-02-01T06:25:00.000Z</published>
-    <updated>2020-03-21T15:53:35.076Z</updated>
+    <updated>2020-04-07T02:36:11.611Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span class = &quot;date&quot; id =
-        
-      
+      &lt;h2 id=&quot;Bing壁纸-每日更新&quot;&gt;&lt;a href=&quot;#Bing壁纸-每日更新&quot; class=&quot;headerlink&quot; title=&quot;Bing壁纸(每日更新)  &quot;&gt;&lt;/a&gt;Bing壁纸(每日更新)  &lt;span class = &quot;date&quot; id = &quot;date&quot;&gt;&lt;/span&gt;&lt;/h2&gt;
     
     </summary>
     
@@ -127,11 +122,12 @@
     <link href="zenithofyou.top/2020/01/29/icaruserror/"/>
     <id>zenithofyou.top/2020/01/29/icaruserror/</id>
     <published>2020-01-29T13:29:00.000Z</published>
-    <updated>2020-04-06T10:58:17.609Z</updated>
+    <updated>2020-04-07T02:33:39.076Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/29/icaruserror/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/29/icaruserror/&lt;/a&gt;&lt;/p&gt;
+      &lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/29/icaruserror/](https://ccsubia.github.io/2020/01/29/icaruserror/) --&gt;
+
 &lt;h3 id=&quot;发现错误&quot;&gt;&lt;a href=&quot;#发现错误&quot; class=&quot;headerlink&quot; title=&quot;发现错误&quot;&gt;&lt;/a&gt;发现错误&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;下载更换ICARUS主题后，重新执行&lt;code&gt;hexo serve&lt;/code&gt;命令，发现报错如下&lt;figure class=&quot;highlight subunit&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Package cheerio is not installed.  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;ERROR &lt;/span&gt;Please install the missing dependencies from the root directory of your Hexo site.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
@@ -152,11 +148,11 @@
     <link href="zenithofyou.top/2020/01/29/gitproxy/"/>
     <id>zenithofyou.top/2020/01/29/gitproxy/</id>
     <published>2020-01-29T12:05:00.000Z</published>
-    <updated>2020-03-20T08:10:24.324Z</updated>
+    <updated>2020-04-07T02:33:26.159Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;./2020/01/29/gitproxy/&quot;&gt;https://ccsubia.github.io/2020/01/29/gitproxy/&lt;/a&gt;&lt;/p&gt;
+      &lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/29/gitproxy/](./2020/01/29/gitproxy/) --&gt;
 &lt;h3 id=&quot;1-前期准备&quot;&gt;&lt;a href=&quot;#1-前期准备&quot; class=&quot;headerlink&quot; title=&quot;1. 前期准备&quot;&gt;&lt;/a&gt;1. 前期准备&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;代理服务器&lt;/li&gt;
 &lt;li&gt;代理软件
@@ -178,11 +174,11 @@
     <link href="zenithofyou.top/2020/01/20/bilibili/"/>
     <id>zenithofyou.top/2020/01/20/bilibili/</id>
     <published>2020-01-20T05:41:00.000Z</published>
-    <updated>2020-01-30T09:10:35.415Z</updated>
+    <updated>2020-04-07T02:33:08.911Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;em&gt;本文链接地址：&lt;/em&gt; &lt;a href=&quot;https://ccsubia.github.io/2020/01/20/bilibili/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://ccsubia.github.io/2020/01/20/bilibili/&lt;/a&gt;&lt;/p&gt;
+      &lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/20/bilibili/](https://ccsubia.github.io/2020/01/20/bilibili/) --&gt;
 &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯&lt;/p&gt;
 &lt;h3 id=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;a href=&quot;#准备阶段–安装著名的下载器IDM&quot; class=&quot;headerlink&quot; title=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;/a&gt;准备阶段–安装著名的下载器IDM&lt;/h3&gt;&lt;p&gt;  下载链接: &lt;a href=&quot;https://www.internetdownloadmanager.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方链接&lt;/a&gt;  &lt;a href=&quot;https://hu.zenith.workers.dev/IDM%206.36.2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;个人云盘链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）
