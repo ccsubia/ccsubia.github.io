@@ -63,12 +63,8 @@
 <td>跳转至上级目录</td>
 </tr>
 <tr>
-<td>Alt+D, cmd</td>
-<td>进入当前目录的命令提示符</td>
-</tr>
-<tr>
 <td>Shift+↑ or ↓</td>
-<td>选择多文件夹</td>
+<td>选择多个文件或文件夹</td>
 </tr>
 <tr>
 <td>Delete</td>
@@ -112,7 +108,15 @@
 </tr>
 <tr>
 <td>Ctrl+A</td>
-<td>选中全部文件夹</td>
+<td>选中全部文件和文件夹</td>
+</tr>
+<tr>
+<td>F5</td>
+<td>刷新</td>
+</tr>
+<tr>
+<td>Alt+F4</td>
+<td>退出</td>
 </tr>
 </tbody></table>
 </li>
