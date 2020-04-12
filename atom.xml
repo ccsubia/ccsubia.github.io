@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-10T10:25:00.786Z</updated>
+  <updated>2020-04-12T10:52:27.152Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RESTful API见解</title>
+    <link href="zenithofyou.top/2020/04/12/RESTful/"/>
+    <id>zenithofyou.top/2020/04/12/RESTful/</id>
+    <published>2020-04-12T10:46:00.000Z</published>
+    <updated>2020-04-12T10:52:27.152Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文转自知乎&lt;a href=&quot;https://www.zhihu.com/people/xing-jiankuan&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;大宽宽&lt;/a&gt;的回答  原文：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="zenithofyou.top/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+      <category term="RESTful" scheme="zenithofyou.top/tags/RESTful/"/>
+    
+      <category term="API" scheme="zenithofyou.top/tags/API/"/>
+    
+  </entry>
   
   <entry>
     <title>杂</title>
@@ -51,7 +80,7 @@
     <link href="zenithofyou.top/2020/04/07/hotkey/"/>
     <id>zenithofyou.top/2020/04/07/hotkey/</id>
     <published>2020-04-07T10:14:00.000Z</published>
-    <updated>2020-04-10T10:44:49.709Z</updated>
+    <updated>2020-04-12T10:42:38.555Z</updated>
     
     <summary type="html">
     
