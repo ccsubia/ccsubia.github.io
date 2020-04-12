@@ -218,8 +218,15 @@
 <li><h4 id="单个数据库导出"><a href="#单个数据库导出" class="headerlink" title="单个数据库导出"></a>单个数据库导出</h4><figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">mysqldump -u 账号 -p 数据库名 &gt; 导出文件名.<span class="keyword">sql</span></span><br><span class="line"><span class="keyword">password</span> ******</span><br></pre></td></tr></table></figure></li>
 <li><h4 id="多个数据库导出"><a href="#多个数据库导出" class="headerlink" title="多个数据库导出"></a>多个数据库导出</h4><figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">mysqldump -u 账号 -p <span class="params">--all-databases</span> &gt; 导出文件名<span class="string">.sql</span></span><br><span class="line">password 输入密码</span><br></pre></td></tr></table></figure>
 <code>注：</code>–all-databases 选项在 MySQL 3.23.12 及以后版本加入。<br>该方法可用于实现数据库的备份策略。</li>
+<li><h4 id="仅导出表结构"><a href="#仅导出表结构" class="headerlink" title="仅导出表结构"></a>仅导出表结构</h4><figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">mysqldump -u 账号 -p  -d 数据库名 (表名)&gt; 导出文件名.<span class="keyword">sql</span></span><br><span class="line"><span class="keyword">password</span> ******</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="仅导出表数据"><a href="#仅导出表数据" class="headerlink" title="仅导出表数据"></a>仅导出表数据</h4><figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">mysqldump -u 账号 -p  -t 数据库名 (表名)&gt; 导出文件名.<span class="keyword">sql</span></span><br><span class="line"><span class="keyword">password</span> ******</span><br></pre></td></tr></table></figure>
+
+</li>
 </ul>
-<h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3>]]></content>
+<h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><ul>
+<li>用source导入挺好的，就介绍用它了<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p 				 # 进入mysql </span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> create database abc;      <span class="comment"># 创建数据库</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> use abc;                  <span class="comment"># 使用已创建的数据库 </span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">set</span> names utf8;           <span class="comment"># 设置编码</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">source</span> /home/abc/abc.sql  <span class="comment"># 导入备份数据库</span></span></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
       <categories>
         <category>技术</category>
       </categories>
