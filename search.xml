@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GitHub.search();</title>
+    <url>/2020/04/13/GitHubSearchTips/</url>
+    <content><![CDATA[<blockquote>
+<p><strong>Github</strong> , 全球最大的同性交友网站！这样一个知识宝库，怎么挖掘出他的好东西？</p>
+</blockquote>
+<ul>
+<li>GitHub有一个<a href="https://github.com/search/advanced" target="_blank" rel="noopener">高级搜索</a>，也是比较好用的，但感觉有点太复杂，而且不太符合一个程序员的气质，推荐使用下面的方法</li>
+<li>在<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>搜索栏，输入以下比较常用的过滤条件搭配组合，可以达到很好的效果<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line"><span class="meta"># 按照项目名/仓库名搜索（大小写不敏感）</span></span><br><span class="line"><span class="symbol">in:</span>name xxx </span><br><span class="line"><span class="meta"># 按照README搜索（大小写不敏感）</span></span><br><span class="line"><span class="symbol">in:</span>readme xxx</span><br><span class="line"><span class="meta"># 按照description搜索（大小写不敏感）</span></span><br><span class="line"><span class="symbol">in:</span>description xxx</span><br><span class="line"><span class="meta"># stars数大于xxx</span></span><br><span class="line"><span class="symbol">stars:</span>&gt;xxx</span><br><span class="line"><span class="meta"># forks数大于xxx</span></span><br><span class="line"><span class="symbol">forks:</span>&gt;xxx</span><br><span class="line"><span class="meta"># 编程语言为xxx</span></span><br><span class="line"><span class="symbol">language:</span>xxx</span><br><span class="line"><span class="meta"># 最新更新时间晚于YYYY-MM-DD</span></span><br><span class="line"><span class="symbol">pushed:</span>&gt;YYYY-MM-DD</span><br></pre></td></tr></table></figure></li>
+<li>GitHub有一个<a href="https://github.com/trending" target="_blank" rel="noopener">trending</a>页面，可以找到最近GitHub上火热的项目，同时可以通过开发语言类别过滤项目</li>
+<li>另外分享一个网页<a href="https://hellogithub.com/" target="_blank" rel="noopener">hellogithub</a>，这个网页收集了一些有趣、入门级的挺好的项目<blockquote>
+<p>HelloGitHub是什么鬼<br>最开始我只是想把自己在浏览 GitHub 过程中，发现的有意思、高质量、容易上手的项目收集起来，这样便于以后查找和学习。后来打算把这些有意思、有价值的开源项目分享给大家。最后就写了这个网站，便于查看和分享。（引用自HelloGithub的网页）</p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技巧</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>搜索</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>RESTful API见解</title>
     <url>/2020/04/12/RESTful/</url>
     <content><![CDATA[<p>本文转自知乎<a href="https://www.zhihu.com/people/xing-jiankuan" target="_blank" rel="noopener">大宽宽</a>的回答  原文：<a href="https://www.zhihu.com/question/28570307" target="_blank" rel="noopener">WEB开发中，使用JSON-RPC好，还是RESTful API好？</a></p>
@@ -224,7 +248,7 @@
 </li>
 </ul>
 <h3 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h3><ul>
-<li>用source导入挺好的，就介绍用它了<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p 				 # 进入mysql </span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> create database abc;      <span class="comment"># 创建数据库</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> use abc;                  <span class="comment"># 使用已创建的数据库 </span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">set</span> names utf8;           <span class="comment"># 设置编码</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">source</span> /home/abc/abc.sql  <span class="comment"># 导入备份数据库</span></span></span><br></pre></td></tr></table></figure></li>
+<li>用source导入挺好的，就介绍用它了<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -p      		# 进入mysql</span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> create database abc;      <span class="comment"># 创建数据库</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> use abc;                  <span class="comment"># 使用已创建的数据库 </span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">set</span> names utf8;           <span class="comment"># 设置编码</span></span></span><br><span class="line"><span class="meta">mysql&gt;</span><span class="bash"> <span class="built_in">source</span> /home/abc/abc.sql  <span class="comment"># 导入备份数据库</span></span></span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
       <categories>

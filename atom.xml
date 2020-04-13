@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-12T10:56:00.104Z</updated>
+  <updated>2020-04-13T10:30:03.648Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub.search();</title>
+    <link href="zenithofyou.top/2020/04/13/GitHubSearchTips/"/>
+    <id>zenithofyou.top/2020/04/13/GitHubSearchTips/</id>
+    <published>2020-04-13T09:29:00.000Z</published>
+    <updated>2020-04-13T10:30:03.648Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt; , 全球最大的同性交友网站！这样一个知识宝库，怎么挖掘出他的好东西？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub有一个&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技巧" scheme="zenithofyou.top/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="GitHub" scheme="zenithofyou.top/tags/GitHub/"/>
+    
+      <category term="搜索" scheme="zenithofyou.top/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>RESTful API见解</title>
@@ -95,7 +128,7 @@
     <link href="zenithofyou.top/2020/04/07/mysqlOperating/"/>
     <id>zenithofyou.top/2020/04/07/mysqlOperating/</id>
     <published>2020-04-07T02:43:00.000Z</published>
-    <updated>2020-04-12T11:21:38.465Z</updated>
+    <updated>2020-04-12T11:26:07.900Z</updated>
     
     <summary type="html">
     
