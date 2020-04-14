@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="zenithofyou.top/"/>
-  <updated>2020-04-13T10:31:00.592Z</updated>
+  <updated>2020-04-14T10:22:20.359Z</updated>
   <id>zenithofyou.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《海绵宝宝语录》</title>
+    <link href="zenithofyou.top/2020/04/14/SpongeBobSquarePants/"/>
+    <id>zenithofyou.top/2020/04/14/SpongeBobSquarePants/</id>
+    <published>2020-04-14T10:15:24.000Z</published>
+    <updated>2020-04-14T10:22:20.359Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;你可以是一本打开的书，但是我要比那复杂一点   ——派大星
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>GitHub.search();</title>
@@ -292,11 +310,13 @@
     <link href="zenithofyou.top/2020/01/20/bilibili/"/>
     <id>zenithofyou.top/2020/01/20/bilibili/</id>
     <published>2020-01-20T05:41:00.000Z</published>
-    <updated>2020-04-07T02:33:08.911Z</updated>
+    <updated>2020-04-13T16:45:52.823Z</updated>
     
     <summary type="html">
     
-      &lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/20/bilibili/](https://ccsubia.github.io/2020/01/20/bilibili/) --&gt;
+      &lt;hr&gt;
+&lt;!-- *本文链接地址：* [https://ccsubia.github.io/2020/01/20/bilibili/](https://ccsubia.github.io/2020/01/20/bilibili/) --&gt;
+
 &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;小破站现在支持了4K清晰度了，作为没有4K显示器的我然而并体验不出区别，但我就是喜欢 屯&lt;/p&gt;
 &lt;h3 id=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;a href=&quot;#准备阶段–安装著名的下载器IDM&quot; class=&quot;headerlink&quot; title=&quot;准备阶段–安装著名的下载器IDM&quot;&gt;&lt;/a&gt;准备阶段–安装著名的下载器IDM&lt;/h3&gt;&lt;p&gt;  下载链接: &lt;a href=&quot;https://www.internetdownloadmanager.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方链接&lt;/a&gt;  &lt;a href=&quot;https://hu.zenith.workers.dev/IDM%206.36.2/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;个人云盘链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）
