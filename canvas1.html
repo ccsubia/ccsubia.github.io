@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvas纯色图片</title>
+  <meta name="generator" content="hexo-theme-yilia-plus">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<link rel="alternate" href="/atom.xml" title="BIA" type="application/atom+xml">
+</head>
+
+<body>
+    <div id="app">
+        <div class="block">
+            <span class="demonstration">选择颜色：</span>
+            <el-color-picker v-model="color1"  size="mini"></el-color-picker>
+        </div>
+    </div>
+    <div>
+        <canvas id="picCanvas" width="1920" height="1080"></canvas>
+    </div>
+</body>
+<style>
+    body {
+        /* padding:0;  去除内边距 */
+        /* border:0;   去除边框 */
+        margin: 0;
+        /*去除外边距*/
+    }
+</style>
+<script type="text/javascript">
+    var Main = {
+        data() {
+            return {
+                color1: '#FFFF00',
+                color2: null
+            }
+        },
+        created(){
+            this.getPic(this.color1)
+        },
+        
+        watch: {
+            'color1': function (newValue, oldValue) {
+                this.color1 = this.color1;
+                console.log(this.color1);
+                this.getPic(this.color1);
+            }
+        },
+        methods: {
+            getPic(color1) {
+                var height = 1080
+                var width = 1920
+                var c = document.getElementById("picCanvas");
+                c.setAttribute('height', height)
+                c.setAttribute('width', width)
+                var cxt = c.getContext("2d");
+                cxt.fillStyle = color1;
+                cxt.fillRect(0, 0, width, height);
+            }
+        }
+    };
+    var Ctor = Vue.extend(Main)
+    new Ctor().$mount('#app')
+</script>
+
+</html>
