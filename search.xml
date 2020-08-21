@@ -294,8 +294,8 @@
 </li>
 </ul>
 <h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><ul>
-<li>从node.js官网<a href="https://nodejs.org/zh-cn/download/releases/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/releases/</a><br>可以查询到版本信息<br><img src="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png" alt="node.js版本信息"><br><img src="https://i.loli.net/2020/04/06/s2RISFOXixc8hH1.png" alt="node.js版本信息"><br>到10的版本NODE_MODULE_VERSION变成了64</li>
-<li>从node-sass的GitHub项目地址可以查询到node-sass的版本信息<br><a href="https://github.com/sass/node-sass/releases/tag/v4.7.2" target="_blank" rel="noopener">https://github.com/sass/node-sass/releases/tag/v4.7.2</a><br><img src="https://i.loli.net/2020/04/06/Azn7DtlSuc3JiNj.png" alt="node-sass版本信息"><br>显然，这就是不兼容的原因</li>
+<li>从node.js官网<a href="https://nodejs.org/zh-cn/download/releases/" target="_blank" rel="noopener">https://nodejs.org/zh-cn/download/releases/</a><br>可以查询到版本信息<br><img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/06/fTQFKI5pGjMPHEs.png"  alt="node.js版本信息"><br><img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/06/s2RISFOXixc8hH1.png"  alt="node.js版本信息"><br>到10的版本NODE_MODULE_VERSION变成了64</li>
+<li>从node-sass的GitHub项目地址可以查询到node-sass的版本信息<br><a href="https://github.com/sass/node-sass/releases/tag/v4.7.2" target="_blank" rel="noopener">https://github.com/sass/node-sass/releases/tag/v4.7.2</a><br><img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/06/Azn7DtlSuc3JiNj.png"  alt="node-sass版本信息"><br>显然，这就是不兼容的原因</li>
 </ul>
 <h3 id="问题解决的引申"><a href="#问题解决的引申" class="headerlink" title="问题解决的引申"></a>问题解决的引申</h3><ul>
 <li>npm install xxx –save -dev 的xxx组件依赖，会保存到package.json中的devDependencies对象下。</li>
@@ -414,10 +414,10 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
 <h3 id="2-代理服务器"><a href="#2-代理服务器" class="headerlink" title="2. 代理服务器"></a>2. 代理服务器</h3><ul>
 <li><p>打开代理软件，连接上代理服务器</p>
 </li>
-<li><p>确定代理软件的占用端口，一般默认<code>1080端口</code> 今天突然发现蛇皮了，将鼠标移动到小图标会显示出端口号<br><img src="/images/pasted-2.png" alt="upload successful"></p>
+<li><p>确定代理软件的占用端口，一般默认<code>1080端口</code> 今天突然发现蛇皮了，将鼠标移动到小图标会显示出端口号<br><img src="/" class="lazyload" data-src="/images/pasted-2.png"  alt="upload successful"></p>
 </li>
-<li><p>如果你用的其他代理软件，不知道端口号是多少，可用下面方法查看<br>1.打开设备管理器，找到代理软件的详细信息确认PID<br>  <img src="https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png" alt="pid"><br>2.<code>CMD</code>打开命令行，查看端口占用信息,使用<code>netstat -ano</code>命令即可查看全部端口占用信息</p>
-<p>3.<code>Ctrl</code>+<code>F</code>查找之前找到的PID，确认占用端口<br>  <img src="https://i.loli.net/2020/01/29/uzPsYNweKmcBOQJ.png" alt="port"></p>
+<li><p>如果你用的其他代理软件，不知道端口号是多少，可用下面方法查看<br>1.打开设备管理器，找到代理软件的详细信息确认PID<br>  <img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/29/MqwgAa9FHYsjmNI.png"  alt="pid"><br>2.<code>CMD</code>打开命令行，查看端口占用信息,使用<code>netstat -ano</code>命令即可查看全部端口占用信息</p>
+<p>3.<code>Ctrl</code>+<code>F</code>查找之前找到的PID，确认占用端口<br>  <img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/29/uzPsYNweKmcBOQJ.png"  alt="port"></p>
 </li>
 </ul>
 <h3 id="3-设置git代理"><a href="#3-设置git代理" class="headerlink" title="3. 设置git代理"></a>3. 设置git代理</h3><ul>
@@ -431,7 +431,7 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
 </ul>
 <figure class="highlight tcl"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 取消全局代理</span></span><br><span class="line">git config --<span class="keyword">global</span> --<span class="keyword">unset</span> <span class="keyword">http</span>.proxy</span><br><span class="line">git config --<span class="keyword">global</span> --<span class="keyword">unset</span> https.proxy</span><br><span class="line">  </span><br><span class="line"><span class="comment"># 或者</span></span><br><span class="line">npm config delete proxy</span><br><span class="line">  </span><br><span class="line"><span class="comment"># 取消github.com代理</span></span><br><span class="line">git config --<span class="keyword">global</span> --<span class="keyword">unset</span> <span class="keyword">http</span>.https://github.com.proxy</span><br></pre></td></tr></table></figure>
 
-<h3 id="4-测试结果"><a href="#4-测试结果" class="headerlink" title="4.测试结果"></a>4.测试结果</h3><p><img src="/images/pasted-5.png" alt="代理测试"><br>成功！！</p>
+<h3 id="4-测试结果"><a href="#4-测试结果" class="headerlink" title="4.测试结果"></a>4.测试结果</h3><p><img src="/" class="lazyload" data-src="/images/pasted-5.png"  alt="代理测试"><br>成功！！</p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -451,16 +451,16 @@ onerror="this.src='https://api.berryapi.net/?service=App.Bing.Images&day=-0';thi
 <h3 id="准备阶段–安装著名的下载器IDM"><a href="#准备阶段–安装著名的下载器IDM" class="headerlink" title="准备阶段–安装著名的下载器IDM"></a>准备阶段–安装著名的下载器IDM</h3><p>  下载链接: <a href="https://www.internetdownloadmanager.com/" target="_blank" rel="noopener">官方链接</a>  <a href="https://hu.zenith.workers.dev/IDM%206.36.2/" target="_blank" rel="noopener">个人云盘链接</a></p>
 <p>  安装教程不多说了，个人云盘版文件集成了浏览器插件（插件特别重要）<a id="more"></a></p>
 <h3 id="正式阶段–前往小破站下载"><a href="#正式阶段–前往小破站下载" class="headerlink" title="正式阶段–前往小破站下载"></a>正式阶段–前往小破站下载</h3><p>浏览器正常浏览小破站，找到需要下载视频页面，在视频页面右上角会出现IDM的下载浮窗，如下图所示（如果看不到这个悬浮窗请<code>刷新页面</code>或<code>重启浏览器</code>或<code>更换浏览器</code>,建议使用<code>Chrome</code>，还是没有可能是你的插件没有安装好，或者是由于之前有过一些我不知道的操作，请自行解决没有请刷新页面或自己发动聪明的大脑解决）</p>
-<p>  <img src="https://i.loli.net/2020/01/20/JSmhNRAYHUlWDaI.png" alt=""></p>
+<p>  <img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/20/JSmhNRAYHUlWDaI.png"  alt=""></p>
 <p>点击下载该视频，如果下载的视频是<code>FLV</code>格式的则即刻直接下载(一般B站默认是使用H5播放器，如果你是IE老用户，大部分视频在此下载只有<code>MP4</code>格式，只有小部分视频会在H5播放器中提供出<code>FLV</code>格式下载)</p>
 <p>此时需要确定你的浏览器使用的播放器（H5/flash，在B站播放页面鼠标移动到设置就能看到）如下：</p>
-<p>  <img src="https://i.loli.net/2020/01/20/27jI6cNguQaA3Yr.png" alt=""></p>
+<p>  <img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/20/27jI6cNguQaA3Yr.png"  alt=""></p>
 <p>如果是H5播放器，由于B站的一般音视频是分隔开来的，此时下载的<code>MP4</code>格式视频是没有声音的（反正我的是没有），<code>切换为flash播放器</code>，此时你能下载的最大分辨率只有1080+的<code>FLV</code>格式的视频文件，但下载的视频文件是有声音的(这样就很Nice).</p>
 <h3 id="进阶阶段–4K分辨率视频下载"><a href="#进阶阶段–4K分辨率视频下载" class="headerlink" title="进阶阶段–4K分辨率视频下载"></a>进阶阶段–4K分辨率视频下载</h3><p><code>如果视频没有4K画质或你主观不需要4K，到这就可以结束了</code></p>
 <p><code>如果没有大会员也可以到这结束了</code></p>
 <p>切换为H5播放器，刷新页面可选择<code>4K</code>分辨率视频下载（前提当然是你有<code>大会员</code>），经由本人测试，使用<code>IDM</code>下载只能找到大部分不具有<code>4K</code>分辨率的视频对应的音频文件，具有<code>4K</code>分辨率的视频利用<code>IDM</code>无法找到小破站的音频单独文件</p>
-<p><img src="https://i.loli.net/2020/01/22/XYkjHbi3a1cKJgf.png" alt=""></p>
-<p><img src="https://i.loli.net/2020/01/22/P7qhQuHmElnFU1S.png" alt=""></p>
+<p><img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/22/XYkjHbi3a1cKJgf.png"  alt=""></p>
+<p><img src="/" class="lazyload" data-src="https://i.loli.net/2020/01/22/P7qhQuHmElnFU1S.png"  alt=""></p>
 <p>现在就只能走一点弯路了，就是提取出之前的<code>FLV</code>格式的视频中的音频</p>
 <p>  在线视频提取音频地址：<a href="http://www.bejson.com/convert/video2audio/" target="_blank" rel="noopener">http://www.bejson.com/convert/video2audio/</a></p>
 <p>  最后再进行一次音视频合并，音视频合并的文件可在网盘下载<br>  视频合并需要ffmpeg的支持，可前往官网下载全局安装<br>  <a href="https://www.ffmpeg.org/download.html/" target="_blank" rel="noopener">https://www.ffmpeg.org/download.html/</a></p>
